@@ -17,7 +17,7 @@ These are the defaults. Edit them here if the team wants something different.
 
 | # | Decision | Default |
 |---|---|---|
-| D1 | Where the single React (Vite) app lives | `m2_inventory_kunal/frontend/`. Form-3B says Kunal created the React 18 + Tailwind project. The other members' UI code sits in their own folders and is imported through Vite aliases. |
+| D1 | Where the single React (Vite) app lives | `m2_inventory/frontend/`. Form-3B says Kunal created the React 18 + Tailwind project. The other members' UI code sits in their own folders and is imported through Vite aliases. |
 | D2 | Where the single Flask backend app lives | `m1_auth_lucky/backend/`. Form-3A says Lucky created the Flask project with blueprints. It registers Kunal's blueprints. |
 | D3 | Module 3 integration level | The ML service runs **standalone** (port 5051) and is demoed with scripts, Postman and pytest. The main backend does **not** call it yet: Form-2 schedules that integration for 25 Feb – 5 Mar 2027. |
 | D4 | Module 4 data | Every dashboard visual uses **sample data shaped exactly like the agreed API contracts**. The aggregation APIs are scheduled for Jan 2027. |
@@ -76,7 +76,7 @@ drug-supply-chain/
 │   ├── tests/test_auth.py, test_rbac.py, test_profile.py
 │   └── postman/M1_Auth.postman_collection.json
 │
-├── m2_inventory_kunal/          # ── MODULE 2: Kunal Prajapat
+├── m2_inventory/          # ── MODULE 2: Kunal Prajapat
 │   ├── README.md
 │   ├── backend/
 │   │   ├── drugs/routes.py, suppliers/routes.py, branches/routes.py
@@ -124,13 +124,13 @@ drug-supply-chain/
         └── mocks/overview.json, suppliers.json, forecast_sample.json, alerts.json, settings.json, users.json
 ```
 
-**Frontend wiring (D1):** the root `package.json` holds every frontend dependency, and `npm install` runs at the root. Node resolution then walks up from any member folder to the root `node_modules`. In `m2_inventory_kunal/frontend/vite.config.js`:
+**Frontend wiring (D1):** the root `package.json` holds every frontend dependency, and `npm install` runs at the root. Node resolution then walks up from any member folder to the root `node_modules`. In `m2_inventory/frontend/vite.config.js`:
 - set `root: __dirname`
 - set aliases `@m1 → ../../m1_auth_lucky/frontend`, `@m2 → ./src`, `@m4 → ../../m4_dashboard_pranay/frontend`
 - set `server.fs.allow` to the repo root and `server.port` to 5173
 - proxy `/api` → `http://localhost:5050` (strip the `/api` prefix), so the browser never deals with CORS during the demo
 
-Tailwind `content` must glob all three frontend folders. Root scripts: `"dev": "vite --config m2_inventory_kunal/frontend/vite.config.js"`, plus `build` and `preview`.
+Tailwind `content` must glob all three frontend folders. Root scripts: `"dev": "vite --config m2_inventory/frontend/vite.config.js"`, plus `build` and `preview`.
 
 **Backend wiring (D2):** run everything from the repo root (`python -m m1_auth_lucky.backend.run`). M2 blueprints import `rbac` and `extensions` from `m1_auth_lucky.backend`. That dependency is real (inventory needs auth), and it is the "Auth APIs connected with the inventory interface" integration from Form-3A.
 
@@ -456,7 +456,7 @@ Sections, in this order:
 6. **Run:** three terminals (backend 5050, ML 5051, frontend 5173) or `scripts/run_all`. Include health-check URLs.
 7. **Demo accounts** table.
 8. **Demo script, per member** (copy §11.1, keep it tight; about 3–4 minutes each).
-9. **Running tests:** `pytest m1_auth_lucky m2_inventory_kunal m3_ml_kushagra -q`; Postman import paths.
+9. **Running tests:** `pytest m1_auth_lucky m2_inventory m3_ml_kushagra -q`; Postman import paths.
 10. **API reference:** links to each member README and contract file.
 11. **Troubleshooting:** Mongo not running, port in use, Prophet install, CORS (use the Vite proxy), expired token.
 12. **Roadmap:** what each member delivers next, with the Form-2 hard deadlines.
@@ -478,7 +478,7 @@ Sections, in this order:
 4. Try to sell more than available → rejected, and stock is unchanged (TC-05).
 5. Upload `m3_ml_kushagra/data/sales_history.csv` (Kushagra's generated history) → saved count. Then upload `sample_data/sales_history_with_errors.csv` → rejected rows with reasons.
 6. Create a purchase order → it appears as Pending. Show the supplier seeing it in the Supplier Portal. Point out the disabled confirm/deliver buttons (Sprint 4).
-7. `pytest m2_inventory_kunal -q`
+7. `pytest m2_inventory -q`
 
 **Kushagra (M3: Forecasting, 35%)**
 1. Start the ML service and open `/health` (Prophet available).

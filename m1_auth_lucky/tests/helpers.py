@@ -3,7 +3,7 @@ import mongomock
 
 from m1_auth_lucky.backend.app import create_app
 from m1_auth_lucky.backend.seed_users import DEMO_PASSWORD, seed_users
-from m2_inventory_kunal.backend.seed_inventory import seed_inventory
+from m2_inventory.backend.seed_inventory import seed_inventory
 
 
 def make_app(**overrides):

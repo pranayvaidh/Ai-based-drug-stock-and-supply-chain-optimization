@@ -86,7 +86,7 @@ TC-04 (`test_stock.py::test_tc04_…`), TC-05 (`test_sales_fefo.py::test_tc05_�
 another branch (403), supplier PO scoping.
 
 ```bash
-pytest m2_inventory_kunal -q
+pytest m2_inventory -q
 ```
 
 ## Demo (about 3–4 minutes)
@@ -98,4 +98,4 @@ pytest m2_inventory_kunal -q
    `sample_data/sales_history_with_errors.csv` → rejected rows table with reasons.
 6. Purchase Orders → create an order (or click **Use suggestion**) → it appears as Pending. Log in as
    `supplier@demo.com` → Supplier Portal shows it. Point out the disabled Confirm/Deliver buttons (Sprint 4).
-7. `pytest m2_inventory_kunal -q`
+7. `pytest m2_inventory -q`

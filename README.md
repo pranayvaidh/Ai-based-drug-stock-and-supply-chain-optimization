@@ -13,7 +13,7 @@ This repository is the **progress-demo build**: it matches the mentor's Form-3 W
 | Member | Roll No. | Module | Folder |
 |---|---|---|---|
 | **Lucky Jangid** (Team Lead) | 23ESKIT091 | M1: User Authentication & Role Management, Flask backend & integration | [`m1_auth_lucky/`](m1_auth_lucky/README.md) |
-| **Kunal Prajapat** | 23ESKIT086 | M2: Drug Inventory & Supply Chain | [`m2_inventory_kunal/`](m2_inventory_kunal/README.md) |
+| **Kunal Prajapat** | 23ESKIT086 | M2: Drug Inventory & Supply Chain | [`m2_inventory/`](m2_inventory/README.md) |
 | **Kushagra Sharma** | 23ESKIT089 | M3: AI/ML Demand Forecasting & Risk Detection | [`m3_ml_kushagra/`](m3_ml_kushagra/README.md) |
 | **Pranay Vaidh** | 23ESKIT124 | M4: Analytics, Visualization & Dashboard | [`m4_dashboard_pranay/`](m4_dashboard_pranay/README.md) |
 
@@ -122,9 +122,9 @@ Start from a fresh `python scripts/seed_all.py --reset` with all three services 
 2. As pharmacist: add a stock batch (TC-04) and show it in the stock list with the days-to-expiry badge.
 3. Record a sale that spans two batches (e.g. Paracetamol 500 mg, qty 50) and show the FEFO breakdown, earliest expiry first.
 4. Try to sell more than is available → rejected, stock unchanged (TC-05).
-5. Upload `m3_ml_kushagra/data/sales_history.csv` → saved count. Then upload `m2_inventory_kunal/sample_data/sales_history_with_errors.csv` → rejected rows with reasons.
+5. Upload `m3_ml_kushagra/data/sales_history.csv` → saved count. Then upload `m2_inventory/sample_data/sales_history_with_errors.csv` → rejected rows with reasons.
 6. Create a purchase order → Pending. Show the supplier seeing it in the Supplier Portal. Point out the disabled Confirm/Deliver buttons (Sprint 4).
-7. `pytest m2_inventory_kunal -q`
+7. `pytest m2_inventory -q`
 
 **Kushagra (M3: Forecasting, 35 %)**
 1. Start the ML service and open `/health` (Prophet available).
@@ -143,20 +143,20 @@ Start from a fresh `python scripts/seed_all.py --reset` with all three services 
 
 ## Running tests
 ```bash
-pytest m1_auth_lucky m2_inventory_kunal m3_ml_kushagra -q
+pytest m1_auth_lucky m2_inventory m3_ml_kushagra -q
 ```
 Backend tests use **mongomock** (no MongoDB needed). Prophet-specific tests skip if Prophet is not installed.
 
 Postman (File → Import), run each collection's folder **0 · Login** first:
 - `m1_auth_lucky/postman/M1_Auth.postman_collection.json`
-- `m2_inventory_kunal/postman/M2_Inventory.postman_collection.json`
+- `m2_inventory/postman/M2_Inventory.postman_collection.json`
 - `m3_ml_kushagra/postman/M3_ML.postman_collection.json`
 
 Frontend: `npm run build` (production build) and `npm run lint`.
 
 ## API reference
 - Auth, users, RBAC, error format: [`m1_auth_lucky/README.md`](m1_auth_lucky/README.md)
-- Drugs, suppliers, branches, stock, sales/FEFO, CSV, purchase orders: [`m2_inventory_kunal/README.md`](m2_inventory_kunal/README.md)
+- Drugs, suppliers, branches, stock, sales/FEFO, CSV, purchase orders: [`m2_inventory/README.md`](m2_inventory/README.md)
 - ML service: [`m3_ml_kushagra/contracts/ML_API_CONTRACT.md`](m3_ml_kushagra/contracts/ML_API_CONTRACT.md)
 - Dashboard (agreed, not built): [`m4_dashboard_pranay/contracts/DASHBOARD_API_CONTRACT.md`](m4_dashboard_pranay/contracts/DASHBOARD_API_CONTRACT.md)
 - Build brief used for this milestone: [`docs/BUILD_SPEC.md`](docs/BUILD_SPEC.md)

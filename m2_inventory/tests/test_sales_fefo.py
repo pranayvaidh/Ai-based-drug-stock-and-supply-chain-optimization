@@ -2,7 +2,7 @@
 from datetime import date, datetime, timedelta
 
 from m1_auth_lucky.tests.helpers import oid_of
-from m2_inventory_kunal.backend.sales.fefo import plan_fefo
+from m2_inventory.backend.sales.fefo import plan_fefo
 
 
 def _qty_by_batch(db, drug_id, branch_id):

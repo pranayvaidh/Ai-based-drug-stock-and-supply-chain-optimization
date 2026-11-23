@@ -871,7 +871,7 @@
                 {
                   "key": "file",
                   "type": "file",
-                  "src": "m2_inventory_kunal/sample_data/sales_history_with_errors.csv"
+                  "src": "m2_inventory/sample_data/sales_history_with_errors.csv"
                 }
               ]
             }

@@ -2,16 +2,16 @@
   "name": "drug-supply-chain",
   "private": true,
   "version": "0.4.0",
-  "description": "AI-Based Drug Stock & Supply Chain Optimization (SKIT 2026-27-AIML-28). Single Vite app lives in m2_inventory_kunal/frontend.",
+  "description": "AI-Based Drug Stock & Supply Chain Optimization (SKIT 2026-27-AIML-28). Single Vite app lives in m2_inventory/frontend.",
   "type": "module",
   "engines": {
     "node": ">=20"
   },
   "scripts": {
-    "dev": "vite --config m2_inventory_kunal/frontend/vite.config.js",
-    "build": "vite build --config m2_inventory_kunal/frontend/vite.config.js",
-    "preview": "vite preview --config m2_inventory_kunal/frontend/vite.config.js",
-    "lint": "eslint m1_auth_lucky/frontend m2_inventory_kunal/frontend/src m4_dashboard_pranay/frontend --ext .js,.jsx"
+    "dev": "vite --config m2_inventory/frontend/vite.config.js",
+    "build": "vite build --config m2_inventory/frontend/vite.config.js",
+    "preview": "vite preview --config m2_inventory/frontend/vite.config.js",
+    "lint": "eslint m1_auth_lucky/frontend m2_inventory/frontend/src m4_dashboard_pranay/frontend --ext .js,.jsx"
   },
   "dependencies": {
     "axios": "^1.7.7",

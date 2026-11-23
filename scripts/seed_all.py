@@ -16,8 +16,8 @@ sys.path.insert(0, str(ROOT))
 from m1_auth_lucky.backend.config import Config  # noqa: E402
 from m1_auth_lucky.backend.extensions import connect_mongo, ensure_indexes  # noqa: E402
 from m1_auth_lucky.backend.seed_users import DEMO_PASSWORD, seed_users  # noqa: E402
-from m2_inventory_kunal.backend.sales.csv_upload import import_sales_csv  # noqa: E402
-from m2_inventory_kunal.backend.seed_inventory import seed_inventory  # noqa: E402
+from m2_inventory.backend.sales.csv_upload import import_sales_csv  # noqa: E402
+from m2_inventory.backend.seed_inventory import seed_inventory  # noqa: E402
 
 SALES_CSV = ROOT / "m3_ml_kushagra" / "data" / "sales_history.csv"
 

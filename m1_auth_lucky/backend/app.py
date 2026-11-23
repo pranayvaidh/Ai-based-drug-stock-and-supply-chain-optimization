@@ -44,7 +44,7 @@ def create_app(overrides=None, mongo_client=None):
     app.register_blueprint(users_bp)
 
     # ---- Module 2 blueprints (Kunal) ----
-    from m2_inventory_kunal.backend import register_blueprints as register_m2
+    from m2_inventory.backend import register_blueprints as register_m2
     register_m2(app)
 
     @app.get("/health")
@@ -60,6 +60,6 @@ def create_app(overrides=None, mongo_client=None):
     @app.get("/")
     def index():
         return jsonify({"service": "drug-supply-chain-api", "health": "/health",
-                        "docs": "see m1_auth_lucky/README.md and m2_inventory_kunal/README.md"})
+                        "docs": "see m1_auth_lucky/README.md and m2_inventory/README.md"})
 
     return app
