@@ -1,0 +1,61 @@
+{
+ "_note": "SAMPLE DATA. Admin user management is planned for Sprint 4.",
+ "users": [
+  {
+   "name": "Asha Admin",
+   "email": "admin@demo.com",
+   "role": "admin",
+   "scope": "All branches",
+   "last_login": "2026-11-16T05:42:00Z",
+   "active": true
+  },
+  {
+   "name": "Priya Sharma",
+   "email": "pharmacist@demo.com",
+   "role": "pharmacist",
+   "scope": "Malviya Nagar Pharmacy",
+   "last_login": "2026-11-16T04:10:00Z",
+   "active": true
+  },
+  {
+   "name": "Rohit Meena",
+   "email": "pharmacist2@demo.com",
+   "role": "pharmacist",
+   "scope": "Vaishali Nagar Pharmacy",
+   "last_login": "2026-11-15T13:25:00Z",
+   "active": true
+  },
+  {
+   "name": "Kavita Joshi",
+   "email": "kavita.j@demo.com",
+   "role": "pharmacist",
+   "scope": "Jagatpura Pharmacy",
+   "last_login": "2026-11-14T09:02:00Z",
+   "active": true
+  },
+  {
+   "name": "Vikram Singh",
+   "email": "supplier@demo.com",
+   "role": "supplier",
+   "scope": "Rajasthan Pharma Distributors",
+   "last_login": "2026-11-15T17:48:00Z",
+   "active": true
+  },
+  {
+   "name": "Neha Agarwal",
+   "email": "supplier2@demo.com",
+   "role": "supplier",
+   "scope": "MedLine Wholesale",
+   "last_login": "2026-11-12T11:30:00Z",
+   "active": true
+  },
+  {
+   "name": "Arjun Rathore",
+   "email": "arjun.r@demo.com",
+   "role": "supplier",
+   "scope": "Shree Ganesh Medical Agencies",
+   "last_login": null,
+   "active": false
+  }
+ ]
+}

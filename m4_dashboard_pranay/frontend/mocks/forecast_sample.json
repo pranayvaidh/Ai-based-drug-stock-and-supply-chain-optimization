@@ -1,0 +1,3538 @@
+{
+ "_note": "SAMPLE DATA shaped like GET /forecast/{drug_id}?branch_id= . Produced offline by the Module 3 pipeline on the synthetic history; the live backend endpoint arrives in Sprint 7.",
+ "forecasts": [
+  {
+   "drug_id": "Paracetamol 500 mg",
+   "branch_id": "Malviya Nagar Pharmacy",
+   "model_used": "prophet",
+   "horizon_days": 30,
+   "history_days": 240,
+   "candidates": {
+    "prophet": {
+     "mape": 17.59
+    },
+    "linear_regression": {
+     "mape": 17.65
+    }
+   },
+   "mape": 17.59,
+   "confidence": "OK",
+   "avg_daily_demand": 57.1,
+   "daily_predictions": [
+    {
+     "date": "2026-11-16",
+     "yhat": 60.49,
+     "yhat_lower": 35.23,
+     "yhat_upper": 82.68
+    },
+    {
+     "date": "2026-11-17",
+     "yhat": 52.79,
+     "yhat_lower": 32.58,
+     "yhat_upper": 75.09
+    },
+    {
+     "date": "2026-11-18",
+     "yhat": 49.79,
+     "yhat_lower": 28.13,
+     "yhat_upper": 70.97
+    },
+    {
+     "date": "2026-11-19",
+     "yhat": 52.7,
+     "yhat_lower": 29.09,
+     "yhat_upper": 74.56
+    },
+    {
+     "date": "2026-11-20",
+     "yhat": 54.63,
+     "yhat_lower": 35.13,
+     "yhat_upper": 76.38
+    },
+    {
+     "date": "2026-11-21",
+     "yhat": 70.07,
+     "yhat_lower": 48.05,
+     "yhat_upper": 90.67
+    },
+    {
+     "date": "2026-11-22",
+     "yhat": 49.03,
+     "yhat_lower": 29.08,
+     "yhat_upper": 73.1
+    },
+    {
+     "date": "2026-11-23",
+     "yhat": 61.33,
+     "yhat_lower": 38.17,
+     "yhat_upper": 83.86
+    },
+    {
+     "date": "2026-11-24",
+     "yhat": 53.62,
+     "yhat_lower": 30.84,
+     "yhat_upper": 76.22
+    },
+    {
+     "date": "2026-11-25",
+     "yhat": 50.62,
+     "yhat_lower": 27.74,
+     "yhat_upper": 74.07
+    },
+    {
+     "date": "2026-11-26",
+     "yhat": 53.53,
+     "yhat_lower": 33.14,
+     "yhat_upper": 73.74
+    },
+    {
+     "date": "2026-11-27",
+     "yhat": 55.47,
+     "yhat_lower": 34.04,
+     "yhat_upper": 75.59
+    },
+    {
+     "date": "2026-11-28",
+     "yhat": 70.9,
+     "yhat_lower": 48.12,
+     "yhat_upper": 89.07
+    },
+    {
+     "date": "2026-11-29",
+     "yhat": 49.87,
+     "yhat_lower": 28.94,
+     "yhat_upper": 71.93
+    },
+    {
+     "date": "2026-11-30",
+     "yhat": 62.16,
+     "yhat_lower": 36.54,
+     "yhat_upper": 84.72
+    },
+    {
+     "date": "2026-12-01",
+     "yhat": 54.45,
+     "yhat_lower": 32.63,
+     "yhat_upper": 72.45
+    },
+    {
+     "date": "2026-12-02",
+     "yhat": 51.45,
+     "yhat_lower": 30.18,
+     "yhat_upper": 74.46
+    },
+    {
+     "date": "2026-12-03",
+     "yhat": 54.36,
+     "yhat_lower": 34.81,
+     "yhat_upper": 78.83
+    },
+    {
+     "date": "2026-12-04",
+     "yhat": 56.3,
+     "yhat_lower": 33.08,
+     "yhat_upper": 78.42
+    },
+    {
+     "date": "2026-12-05",
+     "yhat": 71.74,
+     "yhat_lower": 54.49,
+     "yhat_upper": 92.75
+    },
+    {
+     "date": "2026-12-06",
+     "yhat": 50.7,
+     "yhat_lower": 30.13,
+     "yhat_upper": 72.78
+    },
+    {
+     "date": "2026-12-07",
+     "yhat": 62.99,
+     "yhat_lower": 42.08,
+     "yhat_upper": 88.32
+    },
+    {
+     "date": "2026-12-08",
+     "yhat": 55.29,
+     "yhat_lower": 34.27,
+     "yhat_upper": 78.68
+    },
+    {
+     "date": "2026-12-09",
+     "yhat": 52.28,
+     "yhat_lower": 28.98,
+     "yhat_upper": 76.56
+    },
+    {
+     "date": "2026-12-10",
+     "yhat": 55.19,
+     "yhat_lower": 35.26,
+     "yhat_upper": 78.45
+    },
+    {
+     "date": "2026-12-11",
+     "yhat": 57.13,
+     "yhat_lower": 35.75,
+     "yhat_upper": 77.95
+    },
+    {
+     "date": "2026-12-12",
+     "yhat": 72.57,
+     "yhat_lower": 47.35,
+     "yhat_upper": 95.37
+    },
+    {
+     "date": "2026-12-13",
+     "yhat": 51.53,
+     "yhat_lower": 29.69,
+     "yhat_upper": 71.21
+    },
+    {
+     "date": "2026-12-14",
+     "yhat": 63.83,
+     "yhat_lower": 40.87,
+     "yhat_upper": 86.12
+    },
+    {
+     "date": "2026-12-15",
+     "yhat": 56.12,
+     "yhat_lower": 32.87,
+     "yhat_upper": 76.21
+    }
+   ],
+   "preprocessing": {
+    "input_rows": 240,
+    "dropped_non_numeric": 0,
+    "dropped_negative": 0,
+    "dropped_future": 0,
+    "dropped_bad_date": 0,
+    "dropped_invalid": 0,
+    "zero_filled_days": 0
+   },
+   "generated_at": "2026-11-16T06:00:00Z",
+   "actuals": [
+    {
+     "date": "2026-09-17",
+     "quantity": 48
+    },
+    {
+     "date": "2026-09-18",
+     "quantity": 53
+    },
+    {
+     "date": "2026-09-19",
+     "quantity": 58
+    },
+    {
+     "date": "2026-09-20",
+     "quantity": 30
+    },
+    {
+     "date": "2026-09-21",
+     "quantity": 37
+    },
+    {
+     "date": "2026-09-22",
+     "quantity": 48
+    },
+    {
+     "date": "2026-09-23",
+     "quantity": 31
+    },
+    {
+     "date": "2026-09-24",
+     "quantity": 49
+    },
+    {
+     "date": "2026-09-25",
+     "quantity": 46
+    },
+    {
+     "date": "2026-09-26",
+     "quantity": 68
+    },
+    {
+     "date": "2026-09-27",
+     "quantity": 36
+    },
+    {
+     "date": "2026-09-28",
+     "quantity": 43
+    },
+    {
+     "date": "2026-09-29",
+     "quantity": 42
+    },
+    {
+     "date": "2026-09-30",
+     "quantity": 33
+    },
+    {
+     "date": "2026-10-01",
+     "quantity": 38
+    },
+    {
+     "date": "2026-10-02",
+     "quantity": 44
+    },
+    {
+     "date": "2026-10-03",
+     "quantity": 56
+    },
+    {
+     "date": "2026-10-04",
+     "quantity": 33
+    },
+    {
+     "date": "2026-10-05",
+     "quantity": 54
+    },
+    {
+     "date": "2026-10-06",
+     "quantity": 44
+    },
+    {
+     "date": "2026-10-07",
+     "quantity": 43
+    },
+    {
+     "date": "2026-10-08",
+     "quantity": 47
+    },
+    {
+     "date": "2026-10-09",
+     "quantity": 48
+    },
+    {
+     "date": "2026-10-10",
+     "quantity": 60
+    },
+    {
+     "date": "2026-10-11",
+     "quantity": 33
+    },
+    {
+     "date": "2026-10-12",
+     "quantity": 49
+    },
+    {
+     "date": "2026-10-13",
+     "quantity": 56
+    },
+    {
+     "date": "2026-10-14",
+     "quantity": 42
+    },
+    {
+     "date": "2026-10-15",
+     "quantity": 39
+    },
+    {
+     "date": "2026-10-16",
+     "quantity": 45
+    },
+    {
+     "date": "2026-10-17",
+     "quantity": 40
+    },
+    {
+     "date": "2026-10-18",
+     "quantity": 22
+    },
+    {
+     "date": "2026-10-19",
+     "quantity": 49
+    },
+    {
+     "date": "2026-10-20",
+     "quantity": 41
+    },
+    {
+     "date": "2026-10-21",
+     "quantity": 50
+    },
+    {
+     "date": "2026-10-22",
+     "quantity": 35
+    },
+    {
+     "date": "2026-10-23",
+     "quantity": 36
+    },
+    {
+     "date": "2026-10-24",
+     "quantity": 267
+    },
+    {
+     "date": "2026-10-25",
+     "quantity": 174
+    },
+    {
+     "date": "2026-10-26",
+     "quantity": 50
+    },
+    {
+     "date": "2026-10-27",
+     "quantity": 45
+    },
+    {
+     "date": "2026-10-28",
+     "quantity": 35
+    },
+    {
+     "date": "2026-10-29",
+     "quantity": 35
+    },
+    {
+     "date": "2026-10-30",
+     "quantity": 43
+    },
+    {
+     "date": "2026-10-31",
+     "quantity": 59
+    },
+    {
+     "date": "2026-11-01",
+     "quantity": 41
+    },
+    {
+     "date": "2026-11-02",
+     "quantity": 45
+    },
+    {
+     "date": "2026-11-03",
+     "quantity": 49
+    },
+    {
+     "date": "2026-11-04",
+     "quantity": 53
+    },
+    {
+     "date": "2026-11-05",
+     "quantity": 40
+    },
+    {
+     "date": "2026-11-06",
+     "quantity": 64
+    },
+    {
+     "date": "2026-11-07",
+     "quantity": 68
+    },
+    {
+     "date": "2026-11-08",
+     "quantity": 48
+    },
+    {
+     "date": "2026-11-09",
+     "quantity": 61
+    },
+    {
+     "date": "2026-11-10",
+     "quantity": 51
+    },
+    {
+     "date": "2026-11-11",
+     "quantity": 51
+    },
+    {
+     "date": "2026-11-12",
+     "quantity": 61
+    },
+    {
+     "date": "2026-11-13",
+     "quantity": 67
+    },
+    {
+     "date": "2026-11-14",
+     "quantity": 75
+    },
+    {
+     "date": "2026-11-15",
+     "quantity": 42
+    }
+   ]
+  },
+  {
+   "drug_id": "Metformin 500 mg",
+   "branch_id": "Malviya Nagar Pharmacy",
+   "model_used": "linear_regression",
+   "horizon_days": 30,
+   "history_days": 240,
+   "candidates": {
+    "prophet": {
+     "mape": 15.3
+    },
+    "linear_regression": {
+     "mape": 14.94
+    }
+   },
+   "mape": 14.94,
+   "confidence": "OK",
+   "avg_daily_demand": 29.86,
+   "daily_predictions": [
+    {
+     "date": "2026-11-16",
+     "yhat": 36.67,
+     "yhat_lower": 30.06,
+     "yhat_upper": 43.28
+    },
+    {
+     "date": "2026-11-17",
+     "yhat": 31.79,
+     "yhat_lower": 25.18,
+     "yhat_upper": 38.4
+    },
+    {
+     "date": "2026-11-18",
+     "yhat": 28.87,
+     "yhat_lower": 22.26,
+     "yhat_upper": 35.47
+    },
+    {
+     "date": "2026-11-19",
+     "yhat": 29.02,
+     "yhat_lower": 22.41,
+     "yhat_upper": 35.62
+    },
+    {
+     "date": "2026-11-20",
+     "yhat": 29.02,
+     "yhat_lower": 22.41,
+     "yhat_upper": 35.63
+    },
+    {
+     "date": "2026-11-21",
+     "yhat": 35.97,
+     "yhat_lower": 29.36,
+     "yhat_upper": 42.58
+    },
+    {
+     "date": "2026-11-22",
+     "yhat": 21.9,
+     "yhat_lower": 15.29,
+     "yhat_upper": 28.51
+    },
+    {
+     "date": "2026-11-23",
+     "yhat": 36.67,
+     "yhat_lower": 30.06,
+     "yhat_upper": 43.28
+    },
+    {
+     "date": "2026-11-24",
+     "yhat": 31.8,
+     "yhat_lower": 25.19,
+     "yhat_upper": 38.4
+    },
+    {
+     "date": "2026-11-25",
+     "yhat": 28.87,
+     "yhat_lower": 22.26,
+     "yhat_upper": 35.48
+    },
+    {
+     "date": "2026-11-26",
+     "yhat": 29.02,
+     "yhat_lower": 22.41,
+     "yhat_upper": 35.63
+    },
+    {
+     "date": "2026-11-27",
+     "yhat": 29.02,
+     "yhat_lower": 22.41,
+     "yhat_upper": 35.63
+    },
+    {
+     "date": "2026-11-28",
+     "yhat": 35.98,
+     "yhat_lower": 29.37,
+     "yhat_upper": 42.58
+    },
+    {
+     "date": "2026-11-29",
+     "yhat": 21.91,
+     "yhat_lower": 15.3,
+     "yhat_upper": 28.51
+    },
+    {
+     "date": "2026-11-30",
+     "yhat": 36.68,
+     "yhat_lower": 30.07,
+     "yhat_upper": 43.28
+    },
+    {
+     "date": "2026-12-01",
+     "yhat": 30.07,
+     "yhat_lower": 23.46,
+     "yhat_upper": 36.68
+    },
+    {
+     "date": "2026-12-02",
+     "yhat": 27.15,
+     "yhat_lower": 20.54,
+     "yhat_upper": 33.75
+    },
+    {
+     "date": "2026-12-03",
+     "yhat": 27.3,
+     "yhat_lower": 20.69,
+     "yhat_upper": 33.91
+    },
+    {
+     "date": "2026-12-04",
+     "yhat": 27.3,
+     "yhat_lower": 20.69,
+     "yhat_upper": 33.91
+    },
+    {
+     "date": "2026-12-05",
+     "yhat": 34.25,
+     "yhat_lower": 27.64,
+     "yhat_upper": 40.86
+    },
+    {
+     "date": "2026-12-06",
+     "yhat": 20.18,
+     "yhat_lower": 13.58,
+     "yhat_upper": 26.79
+    },
+    {
+     "date": "2026-12-07",
+     "yhat": 34.95,
+     "yhat_lower": 28.34,
+     "yhat_upper": 41.56
+    },
+    {
+     "date": "2026-12-08",
+     "yhat": 30.08,
+     "yhat_lower": 23.47,
+     "yhat_upper": 36.68
+    },
+    {
+     "date": "2026-12-09",
+     "yhat": 27.15,
+     "yhat_lower": 20.54,
+     "yhat_upper": 33.76
+    },
+    {
+     "date": "2026-12-10",
+     "yhat": 27.3,
+     "yhat_lower": 20.69,
+     "yhat_upper": 33.91
+    },
+    {
+     "date": "2026-12-11",
+     "yhat": 27.3,
+     "yhat_lower": 20.7,
+     "yhat_upper": 33.91
+    },
+    {
+     "date": "2026-12-12",
+     "yhat": 34.26,
+     "yhat_lower": 27.65,
+     "yhat_upper": 40.86
+    },
+    {
+     "date": "2026-12-13",
+     "yhat": 20.19,
+     "yhat_lower": 13.58,
+     "yhat_upper": 26.8
+    },
+    {
+     "date": "2026-12-14",
+     "yhat": 34.96,
+     "yhat_lower": 28.35,
+     "yhat_upper": 41.56
+    },
+    {
+     "date": "2026-12-15",
+     "yhat": 30.08,
+     "yhat_lower": 23.47,
+     "yhat_upper": 36.69
+    }
+   ],
+   "preprocessing": {
+    "input_rows": 239,
+    "dropped_non_numeric": 0,
+    "dropped_negative": 0,
+    "dropped_future": 0,
+    "dropped_bad_date": 0,
+    "dropped_invalid": 0,
+    "zero_filled_days": 1
+   },
+   "generated_at": "2026-11-16T06:00:00Z",
+   "actuals": [
+    {
+     "date": "2026-09-17",
+     "quantity": 27
+    },
+    {
+     "date": "2026-09-18",
+     "quantity": 19
+    },
+    {
+     "date": "2026-09-19",
+     "quantity": 40
+    },
+    {
+     "date": "2026-09-20",
+     "quantity": 16
+    },
+    {
+     "date": "2026-09-21",
+     "quantity": 29
+    },
+    {
+     "date": "2026-09-22",
+     "quantity": 40
+    },
+    {
+     "date": "2026-09-23",
+     "quantity": 34
+    },
+    {
+     "date": "2026-09-24",
+     "quantity": 34
+    },
+    {
+     "date": "2026-09-25",
+     "quantity": 19
+    },
+    {
+     "date": "2026-09-26",
+     "quantity": 31
+    },
+    {
+     "date": "2026-09-27",
+     "quantity": 26
+    },
+    {
+     "date": "2026-09-28",
+     "quantity": 35
+    },
+    {
+     "date": "2026-09-29",
+     "quantity": 21
+    },
+    {
+     "date": "2026-09-30",
+     "quantity": 29
+    },
+    {
+     "date": "2026-10-01",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-02",
+     "quantity": 22
+    },
+    {
+     "date": "2026-10-03",
+     "quantity": 28
+    },
+    {
+     "date": "2026-10-04",
+     "quantity": 17
+    },
+    {
+     "date": "2026-10-05",
+     "quantity": 31
+    },
+    {
+     "date": "2026-10-06",
+     "quantity": 28
+    },
+    {
+     "date": "2026-10-07",
+     "quantity": 36
+    },
+    {
+     "date": "2026-10-08",
+     "quantity": 22
+    },
+    {
+     "date": "2026-10-09",
+     "quantity": 31
+    },
+    {
+     "date": "2026-10-10",
+     "quantity": 39
+    },
+    {
+     "date": "2026-10-11",
+     "quantity": 25
+    },
+    {
+     "date": "2026-10-12",
+     "quantity": 33
+    },
+    {
+     "date": "2026-10-13",
+     "quantity": 33
+    },
+    {
+     "date": "2026-10-14",
+     "quantity": 31
+    },
+    {
+     "date": "2026-10-15",
+     "quantity": 24
+    },
+    {
+     "date": "2026-10-16",
+     "quantity": 31
+    },
+    {
+     "date": "2026-10-17",
+     "quantity": 32
+    },
+    {
+     "date": "2026-10-18",
+     "quantity": 17
+    },
+    {
+     "date": "2026-10-19",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-20",
+     "quantity": 33
+    },
+    {
+     "date": "2026-10-21",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-22",
+     "quantity": 22
+    },
+    {
+     "date": "2026-10-23",
+     "quantity": 25
+    },
+    {
+     "date": "2026-10-24",
+     "quantity": 32
+    },
+    {
+     "date": "2026-10-25",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-26",
+     "quantity": 43
+    },
+    {
+     "date": "2026-10-27",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-28",
+     "quantity": 28
+    },
+    {
+     "date": "2026-10-29",
+     "quantity": 24
+    },
+    {
+     "date": "2026-10-30",
+     "quantity": 26
+    },
+    {
+     "date": "2026-10-31",
+     "quantity": 31
+    },
+    {
+     "date": "2026-11-01",
+     "quantity": 30
+    },
+    {
+     "date": "2026-11-02",
+     "quantity": 33
+    },
+    {
+     "date": "2026-11-03",
+     "quantity": 29
+    },
+    {
+     "date": "2026-11-04",
+     "quantity": 30
+    },
+    {
+     "date": "2026-11-05",
+     "quantity": 25
+    },
+    {
+     "date": "2026-11-06",
+     "quantity": 31
+    },
+    {
+     "date": "2026-11-07",
+     "quantity": 41
+    },
+    {
+     "date": "2026-11-08",
+     "quantity": 21
+    },
+    {
+     "date": "2026-11-09",
+     "quantity": 52
+    },
+    {
+     "date": "2026-11-10",
+     "quantity": 22
+    },
+    {
+     "date": "2026-11-11",
+     "quantity": 24
+    },
+    {
+     "date": "2026-11-12",
+     "quantity": 31
+    },
+    {
+     "date": "2026-11-13",
+     "quantity": 25
+    },
+    {
+     "date": "2026-11-14",
+     "quantity": 37
+    },
+    {
+     "date": "2026-11-15",
+     "quantity": 19
+    }
+   ]
+  },
+  {
+   "drug_id": "Insulin Glargine 100 IU/ml",
+   "branch_id": "Jagatpura Pharmacy",
+   "model_used": "moving_average_14d",
+   "horizon_days": 30,
+   "history_days": 40,
+   "candidates": {
+    "moving_average_14d": {
+     "mape": 66.93
+    }
+   },
+   "mape": 66.93,
+   "confidence": "LOW",
+   "avg_daily_demand": 2.43,
+   "daily_predictions": [
+    {
+     "date": "2026-11-16",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-17",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-18",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-19",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-20",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-21",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-22",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-23",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-24",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-25",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-26",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-27",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-28",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-29",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-11-30",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-01",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-02",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-03",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-04",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-05",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-06",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-07",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-08",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-09",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-10",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-11",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-12",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-13",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-14",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    },
+    {
+     "date": "2026-12-15",
+     "yhat": 2.43,
+     "yhat_lower": 0.39,
+     "yhat_upper": 4.46
+    }
+   ],
+   "preprocessing": {
+    "input_rows": 40,
+    "dropped_non_numeric": 0,
+    "dropped_negative": 0,
+    "dropped_future": 0,
+    "dropped_bad_date": 0,
+    "dropped_invalid": 0,
+    "zero_filled_days": 0
+   },
+   "generated_at": "2026-11-16T06:00:00Z",
+   "actuals": [
+    {
+     "date": "2026-10-07",
+     "quantity": 3
+    },
+    {
+     "date": "2026-10-08",
+     "quantity": 0
+    },
+    {
+     "date": "2026-10-09",
+     "quantity": 4
+    },
+    {
+     "date": "2026-10-10",
+     "quantity": 5
+    },
+    {
+     "date": "2026-10-11",
+     "quantity": 0
+    },
+    {
+     "date": "2026-10-12",
+     "quantity": 0
+    },
+    {
+     "date": "2026-10-13",
+     "quantity": 1
+    },
+    {
+     "date": "2026-10-14",
+     "quantity": 3
+    },
+    {
+     "date": "2026-10-15",
+     "quantity": 3
+    },
+    {
+     "date": "2026-10-16",
+     "quantity": 4
+    },
+    {
+     "date": "2026-10-17",
+     "quantity": 5
+    },
+    {
+     "date": "2026-10-18",
+     "quantity": 0
+    },
+    {
+     "date": "2026-10-19",
+     "quantity": 8
+    },
+    {
+     "date": "2026-10-20",
+     "quantity": 3
+    },
+    {
+     "date": "2026-10-21",
+     "quantity": 2
+    },
+    {
+     "date": "2026-10-22",
+     "quantity": 4
+    },
+    {
+     "date": "2026-10-23",
+     "quantity": 2
+    },
+    {
+     "date": "2026-10-24",
+     "quantity": 1
+    },
+    {
+     "date": "2026-10-25",
+     "quantity": 1
+    },
+    {
+     "date": "2026-10-26",
+     "quantity": 0
+    },
+    {
+     "date": "2026-10-27",
+     "quantity": 1
+    },
+    {
+     "date": "2026-10-28",
+     "quantity": 4
+    },
+    {
+     "date": "2026-10-29",
+     "quantity": 0
+    },
+    {
+     "date": "2026-10-30",
+     "quantity": 2
+    },
+    {
+     "date": "2026-10-31",
+     "quantity": 2
+    },
+    {
+     "date": "2026-11-01",
+     "quantity": 1
+    },
+    {
+     "date": "2026-11-02",
+     "quantity": 1
+    },
+    {
+     "date": "2026-11-03",
+     "quantity": 2
+    },
+    {
+     "date": "2026-11-04",
+     "quantity": 1
+    },
+    {
+     "date": "2026-11-05",
+     "quantity": 2
+    },
+    {
+     "date": "2026-11-06",
+     "quantity": 3
+    },
+    {
+     "date": "2026-11-07",
+     "quantity": 6
+    },
+    {
+     "date": "2026-11-08",
+     "quantity": 1
+    },
+    {
+     "date": "2026-11-09",
+     "quantity": 4
+    },
+    {
+     "date": "2026-11-10",
+     "quantity": 5
+    },
+    {
+     "date": "2026-11-11",
+     "quantity": 3
+    },
+    {
+     "date": "2026-11-12",
+     "quantity": 1
+    },
+    {
+     "date": "2026-11-13",
+     "quantity": 3
+    },
+    {
+     "date": "2026-11-14",
+     "quantity": 1
+    },
+    {
+     "date": "2026-11-15",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "drug_id": "Cetirizine 10 mg",
+   "branch_id": "Jagatpura Pharmacy",
+   "model_used": "prophet",
+   "horizon_days": 30,
+   "history_days": 240,
+   "candidates": {
+    "prophet": {
+     "mape": 37.47
+    },
+    "linear_regression": {
+     "mape": 42.22
+    }
+   },
+   "mape": 37.47,
+   "confidence": "LOW",
+   "avg_daily_demand": 16.95,
+   "daily_predictions": [
+    {
+     "date": "2026-11-16",
+     "yhat": 17.26,
+     "yhat_lower": 12.37,
+     "yhat_upper": 21.36
+    },
+    {
+     "date": "2026-11-17",
+     "yhat": 16.26,
+     "yhat_lower": 12.12,
+     "yhat_upper": 20.93
+    },
+    {
+     "date": "2026-11-18",
+     "yhat": 15.65,
+     "yhat_lower": 10.08,
+     "yhat_upper": 21.05
+    },
+    {
+     "date": "2026-11-19",
+     "yhat": 16.04,
+     "yhat_lower": 11.28,
+     "yhat_upper": 20.65
+    },
+    {
+     "date": "2026-11-20",
+     "yhat": 15.64,
+     "yhat_lower": 10.42,
+     "yhat_upper": 20.86
+    },
+    {
+     "date": "2026-11-21",
+     "yhat": 18.96,
+     "yhat_lower": 13.85,
+     "yhat_upper": 23.76
+    },
+    {
+     "date": "2026-11-22",
+     "yhat": 13.88,
+     "yhat_lower": 8.68,
+     "yhat_upper": 19.36
+    },
+    {
+     "date": "2026-11-23",
+     "yhat": 17.66,
+     "yhat_lower": 12.82,
+     "yhat_upper": 23.06
+    },
+    {
+     "date": "2026-11-24",
+     "yhat": 16.67,
+     "yhat_lower": 10.99,
+     "yhat_upper": 21.21
+    },
+    {
+     "date": "2026-11-25",
+     "yhat": 16.06,
+     "yhat_lower": 11.22,
+     "yhat_upper": 21.45
+    },
+    {
+     "date": "2026-11-26",
+     "yhat": 16.45,
+     "yhat_lower": 11.74,
+     "yhat_upper": 21.51
+    },
+    {
+     "date": "2026-11-27",
+     "yhat": 16.05,
+     "yhat_lower": 11.49,
+     "yhat_upper": 21.3
+    },
+    {
+     "date": "2026-11-28",
+     "yhat": 19.37,
+     "yhat_lower": 13.6,
+     "yhat_upper": 24.3
+    },
+    {
+     "date": "2026-11-29",
+     "yhat": 14.29,
+     "yhat_lower": 9.54,
+     "yhat_upper": 18.97
+    },
+    {
+     "date": "2026-11-30",
+     "yhat": 18.07,
+     "yhat_lower": 13.28,
+     "yhat_upper": 22.87
+    },
+    {
+     "date": "2026-12-01",
+     "yhat": 17.08,
+     "yhat_lower": 12.55,
+     "yhat_upper": 21.68
+    },
+    {
+     "date": "2026-12-02",
+     "yhat": 16.47,
+     "yhat_lower": 11.73,
+     "yhat_upper": 21.39
+    },
+    {
+     "date": "2026-12-03",
+     "yhat": 16.86,
+     "yhat_lower": 12.26,
+     "yhat_upper": 22.09
+    },
+    {
+     "date": "2026-12-04",
+     "yhat": 16.45,
+     "yhat_lower": 12.13,
+     "yhat_upper": 21.54
+    },
+    {
+     "date": "2026-12-05",
+     "yhat": 19.77,
+     "yhat_lower": 14.82,
+     "yhat_upper": 24.54
+    },
+    {
+     "date": "2026-12-06",
+     "yhat": 14.69,
+     "yhat_lower": 9.85,
+     "yhat_upper": 19.2
+    },
+    {
+     "date": "2026-12-07",
+     "yhat": 18.48,
+     "yhat_lower": 13.86,
+     "yhat_upper": 22.74
+    },
+    {
+     "date": "2026-12-08",
+     "yhat": 17.49,
+     "yhat_lower": 12.63,
+     "yhat_upper": 22.17
+    },
+    {
+     "date": "2026-12-09",
+     "yhat": 16.87,
+     "yhat_lower": 12.62,
+     "yhat_upper": 21.2
+    },
+    {
+     "date": "2026-12-10",
+     "yhat": 17.26,
+     "yhat_lower": 12.89,
+     "yhat_upper": 22.0
+    },
+    {
+     "date": "2026-12-11",
+     "yhat": 16.86,
+     "yhat_lower": 11.39,
+     "yhat_upper": 21.47
+    },
+    {
+     "date": "2026-12-12",
+     "yhat": 20.18,
+     "yhat_lower": 15.61,
+     "yhat_upper": 24.84
+    },
+    {
+     "date": "2026-12-13",
+     "yhat": 15.1,
+     "yhat_lower": 10.13,
+     "yhat_upper": 19.38
+    },
+    {
+     "date": "2026-12-14",
+     "yhat": 18.88,
+     "yhat_lower": 14.02,
+     "yhat_upper": 23.92
+    },
+    {
+     "date": "2026-12-15",
+     "yhat": 17.89,
+     "yhat_lower": 13.22,
+     "yhat_upper": 22.5
+    }
+   ],
+   "preprocessing": {
+    "input_rows": 240,
+    "dropped_non_numeric": 0,
+    "dropped_negative": 0,
+    "dropped_future": 0,
+    "dropped_bad_date": 0,
+    "dropped_invalid": 0,
+    "zero_filled_days": 0
+   },
+   "generated_at": "2026-11-16T06:00:00Z",
+   "actuals": [
+    {
+     "date": "2026-09-17",
+     "quantity": 9
+    },
+    {
+     "date": "2026-09-18",
+     "quantity": 13
+    },
+    {
+     "date": "2026-09-19",
+     "quantity": 13
+    },
+    {
+     "date": "2026-09-20",
+     "quantity": 10
+    },
+    {
+     "date": "2026-09-21",
+     "quantity": 15
+    },
+    {
+     "date": "2026-09-22",
+     "quantity": 11
+    },
+    {
+     "date": "2026-09-23",
+     "quantity": 12
+    },
+    {
+     "date": "2026-09-24",
+     "quantity": 9
+    },
+    {
+     "date": "2026-09-25",
+     "quantity": 7
+    },
+    {
+     "date": "2026-09-26",
+     "quantity": 10
+    },
+    {
+     "date": "2026-09-27",
+     "quantity": 5
+    },
+    {
+     "date": "2026-09-28",
+     "quantity": 22
+    },
+    {
+     "date": "2026-09-29",
+     "quantity": 14
+    },
+    {
+     "date": "2026-09-30",
+     "quantity": 9
+    },
+    {
+     "date": "2026-10-01",
+     "quantity": 11
+    },
+    {
+     "date": "2026-10-02",
+     "quantity": 6
+    },
+    {
+     "date": "2026-10-03",
+     "quantity": 19
+    },
+    {
+     "date": "2026-10-04",
+     "quantity": 8
+    },
+    {
+     "date": "2026-10-05",
+     "quantity": 24
+    },
+    {
+     "date": "2026-10-06",
+     "quantity": 12
+    },
+    {
+     "date": "2026-10-07",
+     "quantity": 11
+    },
+    {
+     "date": "2026-10-08",
+     "quantity": 13
+    },
+    {
+     "date": "2026-10-09",
+     "quantity": 20
+    },
+    {
+     "date": "2026-10-10",
+     "quantity": 26
+    },
+    {
+     "date": "2026-10-11",
+     "quantity": 9
+    },
+    {
+     "date": "2026-10-12",
+     "quantity": 4
+    },
+    {
+     "date": "2026-10-13",
+     "quantity": 12
+    },
+    {
+     "date": "2026-10-14",
+     "quantity": 18
+    },
+    {
+     "date": "2026-10-15",
+     "quantity": 17
+    },
+    {
+     "date": "2026-10-16",
+     "quantity": 13
+    },
+    {
+     "date": "2026-10-17",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-18",
+     "quantity": 14
+    },
+    {
+     "date": "2026-10-19",
+     "quantity": 22
+    },
+    {
+     "date": "2026-10-20",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-21",
+     "quantity": 14
+    },
+    {
+     "date": "2026-10-22",
+     "quantity": 6
+    },
+    {
+     "date": "2026-10-23",
+     "quantity": 17
+    },
+    {
+     "date": "2026-10-24",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-25",
+     "quantity": 14
+    },
+    {
+     "date": "2026-10-26",
+     "quantity": 19
+    },
+    {
+     "date": "2026-10-27",
+     "quantity": 18
+    },
+    {
+     "date": "2026-10-28",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-29",
+     "quantity": 9
+    },
+    {
+     "date": "2026-10-30",
+     "quantity": 20
+    },
+    {
+     "date": "2026-10-31",
+     "quantity": 22
+    },
+    {
+     "date": "2026-11-01",
+     "quantity": 14
+    },
+    {
+     "date": "2026-11-02",
+     "quantity": 30
+    },
+    {
+     "date": "2026-11-03",
+     "quantity": 16
+    },
+    {
+     "date": "2026-11-04",
+     "quantity": 23
+    },
+    {
+     "date": "2026-11-05",
+     "quantity": 19
+    },
+    {
+     "date": "2026-11-06",
+     "quantity": 14
+    },
+    {
+     "date": "2026-11-07",
+     "quantity": 19
+    },
+    {
+     "date": "2026-11-08",
+     "quantity": 10
+    },
+    {
+     "date": "2026-11-09",
+     "quantity": 9
+    },
+    {
+     "date": "2026-11-10",
+     "quantity": 21
+    },
+    {
+     "date": "2026-11-11",
+     "quantity": 17
+    },
+    {
+     "date": "2026-11-12",
+     "quantity": 25
+    },
+    {
+     "date": "2026-11-13",
+     "quantity": 17
+    },
+    {
+     "date": "2026-11-14",
+     "quantity": 19
+    },
+    {
+     "date": "2026-11-15",
+     "quantity": 12
+    }
+   ]
+  },
+  {
+   "drug_id": "ORS Sachet",
+   "branch_id": "Vaishali Nagar Pharmacy",
+   "model_used": "prophet",
+   "horizon_days": 30,
+   "history_days": 240,
+   "candidates": {
+    "prophet": {
+     "mape": 34.06
+    },
+    "linear_regression": {
+     "mape": 45.03
+    }
+   },
+   "mape": 34.06,
+   "confidence": "LOW",
+   "avg_daily_demand": 15.76,
+   "daily_predictions": [
+    {
+     "date": "2026-11-16",
+     "yhat": 21.16,
+     "yhat_lower": 14.12,
+     "yhat_upper": 29.23
+    },
+    {
+     "date": "2026-11-17",
+     "yhat": 15.96,
+     "yhat_lower": 8.14,
+     "yhat_upper": 24.47
+    },
+    {
+     "date": "2026-11-18",
+     "yhat": 15.55,
+     "yhat_lower": 7.47,
+     "yhat_upper": 23.34
+    },
+    {
+     "date": "2026-11-19",
+     "yhat": 15.77,
+     "yhat_lower": 7.39,
+     "yhat_upper": 23.5
+    },
+    {
+     "date": "2026-11-20",
+     "yhat": 17.43,
+     "yhat_lower": 9.93,
+     "yhat_upper": 24.85
+    },
+    {
+     "date": "2026-11-21",
+     "yhat": 24.26,
+     "yhat_lower": 16.93,
+     "yhat_upper": 32.69
+    },
+    {
+     "date": "2026-11-22",
+     "yhat": 10.21,
+     "yhat_lower": 2.17,
+     "yhat_upper": 19.01
+    },
+    {
+     "date": "2026-11-23",
+     "yhat": 20.25,
+     "yhat_lower": 11.68,
+     "yhat_upper": 27.69
+    },
+    {
+     "date": "2026-11-24",
+     "yhat": 15.05,
+     "yhat_lower": 7.84,
+     "yhat_upper": 22.05
+    },
+    {
+     "date": "2026-11-25",
+     "yhat": 14.64,
+     "yhat_lower": 5.92,
+     "yhat_upper": 22.96
+    },
+    {
+     "date": "2026-11-26",
+     "yhat": 14.86,
+     "yhat_lower": 7.41,
+     "yhat_upper": 21.74
+    },
+    {
+     "date": "2026-11-27",
+     "yhat": 16.52,
+     "yhat_lower": 7.97,
+     "yhat_upper": 24.26
+    },
+    {
+     "date": "2026-11-28",
+     "yhat": 23.35,
+     "yhat_lower": 15.07,
+     "yhat_upper": 30.23
+    },
+    {
+     "date": "2026-11-29",
+     "yhat": 9.3,
+     "yhat_lower": 0.27,
+     "yhat_upper": 16.13
+    },
+    {
+     "date": "2026-11-30",
+     "yhat": 19.34,
+     "yhat_lower": 10.69,
+     "yhat_upper": 27.56
+    },
+    {
+     "date": "2026-12-01",
+     "yhat": 14.14,
+     "yhat_lower": 5.84,
+     "yhat_upper": 21.27
+    },
+    {
+     "date": "2026-12-02",
+     "yhat": 13.73,
+     "yhat_lower": 4.25,
+     "yhat_upper": 21.25
+    },
+    {
+     "date": "2026-12-03",
+     "yhat": 13.94,
+     "yhat_lower": 6.48,
+     "yhat_upper": 21.98
+    },
+    {
+     "date": "2026-12-04",
+     "yhat": 15.6,
+     "yhat_lower": 8.46,
+     "yhat_upper": 23.8
+    },
+    {
+     "date": "2026-12-05",
+     "yhat": 22.43,
+     "yhat_lower": 14.95,
+     "yhat_upper": 30.75
+    },
+    {
+     "date": "2026-12-06",
+     "yhat": 8.38,
+     "yhat_lower": 1.11,
+     "yhat_upper": 16.72
+    },
+    {
+     "date": "2026-12-07",
+     "yhat": 18.42,
+     "yhat_lower": 10.42,
+     "yhat_upper": 26.69
+    },
+    {
+     "date": "2026-12-08",
+     "yhat": 13.22,
+     "yhat_lower": 5.66,
+     "yhat_upper": 21.07
+    },
+    {
+     "date": "2026-12-09",
+     "yhat": 12.82,
+     "yhat_lower": 4.25,
+     "yhat_upper": 20.3
+    },
+    {
+     "date": "2026-12-10",
+     "yhat": 13.03,
+     "yhat_lower": 5.95,
+     "yhat_upper": 21.22
+    },
+    {
+     "date": "2026-12-11",
+     "yhat": 14.69,
+     "yhat_lower": 6.34,
+     "yhat_upper": 22.44
+    },
+    {
+     "date": "2026-12-12",
+     "yhat": 21.52,
+     "yhat_lower": 13.3,
+     "yhat_upper": 29.23
+    },
+    {
+     "date": "2026-12-13",
+     "yhat": 7.47,
+     "yhat_lower": 0.0,
+     "yhat_upper": 15.32
+    },
+    {
+     "date": "2026-12-14",
+     "yhat": 17.51,
+     "yhat_lower": 10.06,
+     "yhat_upper": 26.58
+    },
+    {
+     "date": "2026-12-15",
+     "yhat": 12.31,
+     "yhat_lower": 5.33,
+     "yhat_upper": 20.49
+    }
+   ],
+   "preprocessing": {
+    "input_rows": 241,
+    "dropped_non_numeric": 1,
+    "dropped_negative": 0,
+    "dropped_future": 0,
+    "dropped_bad_date": 0,
+    "dropped_invalid": 1,
+    "zero_filled_days": 0
+   },
+   "generated_at": "2026-11-16T06:00:00Z",
+   "actuals": [
+    {
+     "date": "2026-09-17",
+     "quantity": 16
+    },
+    {
+     "date": "2026-09-18",
+     "quantity": 20
+    },
+    {
+     "date": "2026-09-19",
+     "quantity": 27
+    },
+    {
+     "date": "2026-09-20",
+     "quantity": 17
+    },
+    {
+     "date": "2026-09-21",
+     "quantity": 22
+    },
+    {
+     "date": "2026-09-22",
+     "quantity": 20
+    },
+    {
+     "date": "2026-09-23",
+     "quantity": 23
+    },
+    {
+     "date": "2026-09-24",
+     "quantity": 20
+    },
+    {
+     "date": "2026-09-25",
+     "quantity": 24
+    },
+    {
+     "date": "2026-09-26",
+     "quantity": 22
+    },
+    {
+     "date": "2026-09-27",
+     "quantity": 23
+    },
+    {
+     "date": "2026-09-28",
+     "quantity": 21
+    },
+    {
+     "date": "2026-09-29",
+     "quantity": 22
+    },
+    {
+     "date": "2026-09-30",
+     "quantity": 25
+    },
+    {
+     "date": "2026-10-01",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-02",
+     "quantity": 23
+    },
+    {
+     "date": "2026-10-03",
+     "quantity": 33
+    },
+    {
+     "date": "2026-10-04",
+     "quantity": 17
+    },
+    {
+     "date": "2026-10-05",
+     "quantity": 23
+    },
+    {
+     "date": "2026-10-06",
+     "quantity": 20
+    },
+    {
+     "date": "2026-10-07",
+     "quantity": 15
+    },
+    {
+     "date": "2026-10-08",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-09",
+     "quantity": 14
+    },
+    {
+     "date": "2026-10-10",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-11",
+     "quantity": 21
+    },
+    {
+     "date": "2026-10-12",
+     "quantity": 30
+    },
+    {
+     "date": "2026-10-13",
+     "quantity": 18
+    },
+    {
+     "date": "2026-10-14",
+     "quantity": 26
+    },
+    {
+     "date": "2026-10-15",
+     "quantity": 29
+    },
+    {
+     "date": "2026-10-16",
+     "quantity": 25
+    },
+    {
+     "date": "2026-10-17",
+     "quantity": 36
+    },
+    {
+     "date": "2026-10-18",
+     "quantity": 14
+    },
+    {
+     "date": "2026-10-19",
+     "quantity": 21
+    },
+    {
+     "date": "2026-10-20",
+     "quantity": 14
+    },
+    {
+     "date": "2026-10-21",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-22",
+     "quantity": 22
+    },
+    {
+     "date": "2026-10-23",
+     "quantity": 21
+    },
+    {
+     "date": "2026-10-24",
+     "quantity": 31
+    },
+    {
+     "date": "2026-10-25",
+     "quantity": 21
+    },
+    {
+     "date": "2026-10-26",
+     "quantity": 37
+    },
+    {
+     "date": "2026-10-27",
+     "quantity": 18
+    },
+    {
+     "date": "2026-10-28",
+     "quantity": 15
+    },
+    {
+     "date": "2026-10-29",
+     "quantity": 21
+    },
+    {
+     "date": "2026-10-30",
+     "quantity": 17
+    },
+    {
+     "date": "2026-10-31",
+     "quantity": 23
+    },
+    {
+     "date": "2026-11-01",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-02",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-03",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-04",
+     "quantity": 17
+    },
+    {
+     "date": "2026-11-05",
+     "quantity": 22
+    },
+    {
+     "date": "2026-11-06",
+     "quantity": 22
+    },
+    {
+     "date": "2026-11-07",
+     "quantity": 25
+    },
+    {
+     "date": "2026-11-08",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-09",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-10",
+     "quantity": 19
+    },
+    {
+     "date": "2026-11-11",
+     "quantity": 30
+    },
+    {
+     "date": "2026-11-12",
+     "quantity": 18
+    },
+    {
+     "date": "2026-11-13",
+     "quantity": 24
+    },
+    {
+     "date": "2026-11-14",
+     "quantity": 33
+    },
+    {
+     "date": "2026-11-15",
+     "quantity": 16
+    }
+   ]
+  },
+  {
+   "drug_id": "Pantoprazole 40 mg",
+   "branch_id": "Vaishali Nagar Pharmacy",
+   "model_used": "prophet",
+   "horizon_days": 30,
+   "history_days": 240,
+   "candidates": {
+    "prophet": {
+     "mape": 16.2
+    },
+    "linear_regression": {
+     "mape": 17.91
+    }
+   },
+   "mape": 16.2,
+   "confidence": "OK",
+   "avg_daily_demand": 21.05,
+   "daily_predictions": [
+    {
+     "date": "2026-11-16",
+     "yhat": 24.09,
+     "yhat_lower": 17.7,
+     "yhat_upper": 30.08
+    },
+    {
+     "date": "2026-11-17",
+     "yhat": 19.91,
+     "yhat_lower": 14.63,
+     "yhat_upper": 25.55
+    },
+    {
+     "date": "2026-11-18",
+     "yhat": 20.56,
+     "yhat_lower": 15.16,
+     "yhat_upper": 26.53
+    },
+    {
+     "date": "2026-11-19",
+     "yhat": 20.03,
+     "yhat_lower": 14.58,
+     "yhat_upper": 25.08
+    },
+    {
+     "date": "2026-11-20",
+     "yhat": 20.71,
+     "yhat_lower": 14.78,
+     "yhat_upper": 26.73
+    },
+    {
+     "date": "2026-11-21",
+     "yhat": 25.4,
+     "yhat_lower": 19.85,
+     "yhat_upper": 30.89
+    },
+    {
+     "date": "2026-11-22",
+     "yhat": 15.83,
+     "yhat_lower": 10.25,
+     "yhat_upper": 21.52
+    },
+    {
+     "date": "2026-11-23",
+     "yhat": 24.12,
+     "yhat_lower": 18.5,
+     "yhat_upper": 30.39
+    },
+    {
+     "date": "2026-11-24",
+     "yhat": 19.94,
+     "yhat_lower": 14.23,
+     "yhat_upper": 26.05
+    },
+    {
+     "date": "2026-11-25",
+     "yhat": 20.59,
+     "yhat_lower": 15.86,
+     "yhat_upper": 26.3
+    },
+    {
+     "date": "2026-11-26",
+     "yhat": 20.06,
+     "yhat_lower": 14.04,
+     "yhat_upper": 25.5
+    },
+    {
+     "date": "2026-11-27",
+     "yhat": 20.74,
+     "yhat_lower": 15.02,
+     "yhat_upper": 26.68
+    },
+    {
+     "date": "2026-11-28",
+     "yhat": 25.43,
+     "yhat_lower": 20.22,
+     "yhat_upper": 31.63
+    },
+    {
+     "date": "2026-11-29",
+     "yhat": 15.86,
+     "yhat_lower": 9.51,
+     "yhat_upper": 20.97
+    },
+    {
+     "date": "2026-11-30",
+     "yhat": 24.15,
+     "yhat_lower": 18.66,
+     "yhat_upper": 30.17
+    },
+    {
+     "date": "2026-12-01",
+     "yhat": 19.97,
+     "yhat_lower": 14.52,
+     "yhat_upper": 26.19
+    },
+    {
+     "date": "2026-12-02",
+     "yhat": 20.62,
+     "yhat_lower": 16.06,
+     "yhat_upper": 26.0
+    },
+    {
+     "date": "2026-12-03",
+     "yhat": 20.09,
+     "yhat_lower": 13.77,
+     "yhat_upper": 25.42
+    },
+    {
+     "date": "2026-12-04",
+     "yhat": 20.77,
+     "yhat_lower": 14.95,
+     "yhat_upper": 26.04
+    },
+    {
+     "date": "2026-12-05",
+     "yhat": 25.46,
+     "yhat_lower": 18.85,
+     "yhat_upper": 30.3
+    },
+    {
+     "date": "2026-12-06",
+     "yhat": 15.89,
+     "yhat_lower": 9.43,
+     "yhat_upper": 22.03
+    },
+    {
+     "date": "2026-12-07",
+     "yhat": 24.18,
+     "yhat_lower": 18.38,
+     "yhat_upper": 30.1
+    },
+    {
+     "date": "2026-12-08",
+     "yhat": 20.0,
+     "yhat_lower": 14.57,
+     "yhat_upper": 25.19
+    },
+    {
+     "date": "2026-12-09",
+     "yhat": 20.65,
+     "yhat_lower": 15.65,
+     "yhat_upper": 26.93
+    },
+    {
+     "date": "2026-12-10",
+     "yhat": 20.12,
+     "yhat_lower": 14.78,
+     "yhat_upper": 24.96
+    },
+    {
+     "date": "2026-12-11",
+     "yhat": 20.8,
+     "yhat_lower": 15.64,
+     "yhat_upper": 25.87
+    },
+    {
+     "date": "2026-12-12",
+     "yhat": 25.49,
+     "yhat_lower": 19.85,
+     "yhat_upper": 31.15
+    },
+    {
+     "date": "2026-12-13",
+     "yhat": 15.92,
+     "yhat_lower": 10.36,
+     "yhat_upper": 21.21
+    },
+    {
+     "date": "2026-12-14",
+     "yhat": 24.21,
+     "yhat_lower": 18.63,
+     "yhat_upper": 30.0
+    },
+    {
+     "date": "2026-12-15",
+     "yhat": 20.03,
+     "yhat_lower": 14.46,
+     "yhat_upper": 25.33
+    }
+   ],
+   "preprocessing": {
+    "input_rows": 240,
+    "dropped_non_numeric": 0,
+    "dropped_negative": 0,
+    "dropped_future": 0,
+    "dropped_bad_date": 0,
+    "dropped_invalid": 0,
+    "zero_filled_days": 0
+   },
+   "generated_at": "2026-11-16T06:00:00Z",
+   "actuals": [
+    {
+     "date": "2026-09-17",
+     "quantity": 16
+    },
+    {
+     "date": "2026-09-18",
+     "quantity": 22
+    },
+    {
+     "date": "2026-09-19",
+     "quantity": 21
+    },
+    {
+     "date": "2026-09-20",
+     "quantity": 11
+    },
+    {
+     "date": "2026-09-21",
+     "quantity": 17
+    },
+    {
+     "date": "2026-09-22",
+     "quantity": 18
+    },
+    {
+     "date": "2026-09-23",
+     "quantity": 28
+    },
+    {
+     "date": "2026-09-24",
+     "quantity": 25
+    },
+    {
+     "date": "2026-09-25",
+     "quantity": 25
+    },
+    {
+     "date": "2026-09-26",
+     "quantity": 27
+    },
+    {
+     "date": "2026-09-27",
+     "quantity": 15
+    },
+    {
+     "date": "2026-09-28",
+     "quantity": 23
+    },
+    {
+     "date": "2026-09-29",
+     "quantity": 18
+    },
+    {
+     "date": "2026-09-30",
+     "quantity": 20
+    },
+    {
+     "date": "2026-10-01",
+     "quantity": 26
+    },
+    {
+     "date": "2026-10-02",
+     "quantity": 19
+    },
+    {
+     "date": "2026-10-03",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-04",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-05",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-06",
+     "quantity": 23
+    },
+    {
+     "date": "2026-10-07",
+     "quantity": 24
+    },
+    {
+     "date": "2026-10-08",
+     "quantity": 18
+    },
+    {
+     "date": "2026-10-09",
+     "quantity": 19
+    },
+    {
+     "date": "2026-10-10",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-11",
+     "quantity": 15
+    },
+    {
+     "date": "2026-10-12",
+     "quantity": 19
+    },
+    {
+     "date": "2026-10-13",
+     "quantity": 19
+    },
+    {
+     "date": "2026-10-14",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-15",
+     "quantity": 22
+    },
+    {
+     "date": "2026-10-16",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-17",
+     "quantity": 26
+    },
+    {
+     "date": "2026-10-18",
+     "quantity": 19
+    },
+    {
+     "date": "2026-10-19",
+     "quantity": 32
+    },
+    {
+     "date": "2026-10-20",
+     "quantity": 30
+    },
+    {
+     "date": "2026-10-21",
+     "quantity": 23
+    },
+    {
+     "date": "2026-10-22",
+     "quantity": 26
+    },
+    {
+     "date": "2026-10-23",
+     "quantity": 15
+    },
+    {
+     "date": "2026-10-24",
+     "quantity": 23
+    },
+    {
+     "date": "2026-10-25",
+     "quantity": 13
+    },
+    {
+     "date": "2026-10-26",
+     "quantity": 26
+    },
+    {
+     "date": "2026-10-27",
+     "quantity": 14
+    },
+    {
+     "date": "2026-10-28",
+     "quantity": 24
+    },
+    {
+     "date": "2026-10-29",
+     "quantity": 15
+    },
+    {
+     "date": "2026-10-30",
+     "quantity": 19
+    },
+    {
+     "date": "2026-10-31",
+     "quantity": 36
+    },
+    {
+     "date": "2026-11-01",
+     "quantity": 17
+    },
+    {
+     "date": "2026-11-02",
+     "quantity": 26
+    },
+    {
+     "date": "2026-11-03",
+     "quantity": 29
+    },
+    {
+     "date": "2026-11-04",
+     "quantity": 24
+    },
+    {
+     "date": "2026-11-05",
+     "quantity": 21
+    },
+    {
+     "date": "2026-11-06",
+     "quantity": 23
+    },
+    {
+     "date": "2026-11-07",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-08",
+     "quantity": 16
+    },
+    {
+     "date": "2026-11-09",
+     "quantity": 25
+    },
+    {
+     "date": "2026-11-10",
+     "quantity": 16
+    },
+    {
+     "date": "2026-11-11",
+     "quantity": 17
+    },
+    {
+     "date": "2026-11-12",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-13",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-14",
+     "quantity": 18
+    },
+    {
+     "date": "2026-11-15",
+     "quantity": 12
+    }
+   ]
+  },
+  {
+   "drug_id": "Atorvastatin 10 mg",
+   "branch_id": "Vaishali Nagar Pharmacy",
+   "model_used": "linear_regression",
+   "horizon_days": 30,
+   "history_days": 240,
+   "candidates": {
+    "prophet": {
+     "mape": 21.07
+    },
+    "linear_regression": {
+     "mape": 18.34
+    }
+   },
+   "mape": 18.34,
+   "confidence": "OK",
+   "avg_daily_demand": 19.95,
+   "daily_predictions": [
+    {
+     "date": "2026-11-16",
+     "yhat": 23.41,
+     "yhat_lower": 17.96,
+     "yhat_upper": 28.87
+    },
+    {
+     "date": "2026-11-17",
+     "yhat": 20.38,
+     "yhat_lower": 14.93,
+     "yhat_upper": 25.84
+    },
+    {
+     "date": "2026-11-18",
+     "yhat": 18.37,
+     "yhat_lower": 12.91,
+     "yhat_upper": 23.82
+    },
+    {
+     "date": "2026-11-19",
+     "yhat": 18.45,
+     "yhat_lower": 13.0,
+     "yhat_upper": 23.91
+    },
+    {
+     "date": "2026-11-20",
+     "yhat": 19.68,
+     "yhat_lower": 14.23,
+     "yhat_upper": 25.13
+    },
+    {
+     "date": "2026-11-21",
+     "yhat": 21.85,
+     "yhat_lower": 16.4,
+     "yhat_upper": 27.31
+    },
+    {
+     "date": "2026-11-22",
+     "yhat": 16.66,
+     "yhat_lower": 11.21,
+     "yhat_upper": 22.11
+    },
+    {
+     "date": "2026-11-23",
+     "yhat": 23.52,
+     "yhat_lower": 18.07,
+     "yhat_upper": 28.98
+    },
+    {
+     "date": "2026-11-24",
+     "yhat": 20.49,
+     "yhat_lower": 15.04,
+     "yhat_upper": 25.95
+    },
+    {
+     "date": "2026-11-25",
+     "yhat": 18.48,
+     "yhat_lower": 13.03,
+     "yhat_upper": 23.93
+    },
+    {
+     "date": "2026-11-26",
+     "yhat": 18.57,
+     "yhat_lower": 13.11,
+     "yhat_upper": 24.02
+    },
+    {
+     "date": "2026-11-27",
+     "yhat": 19.79,
+     "yhat_lower": 14.34,
+     "yhat_upper": 25.24
+    },
+    {
+     "date": "2026-11-28",
+     "yhat": 21.97,
+     "yhat_lower": 16.51,
+     "yhat_upper": 27.42
+    },
+    {
+     "date": "2026-11-29",
+     "yhat": 16.77,
+     "yhat_lower": 11.32,
+     "yhat_upper": 22.23
+    },
+    {
+     "date": "2026-11-30",
+     "yhat": 23.64,
+     "yhat_lower": 18.18,
+     "yhat_upper": 29.09
+    },
+    {
+     "date": "2026-12-01",
+     "yhat": 20.19,
+     "yhat_lower": 14.74,
+     "yhat_upper": 25.64
+    },
+    {
+     "date": "2026-12-02",
+     "yhat": 18.18,
+     "yhat_lower": 12.72,
+     "yhat_upper": 23.63
+    },
+    {
+     "date": "2026-12-03",
+     "yhat": 18.26,
+     "yhat_lower": 12.81,
+     "yhat_upper": 23.71
+    },
+    {
+     "date": "2026-12-04",
+     "yhat": 19.49,
+     "yhat_lower": 14.03,
+     "yhat_upper": 24.94
+    },
+    {
+     "date": "2026-12-05",
+     "yhat": 21.66,
+     "yhat_lower": 16.21,
+     "yhat_upper": 27.11
+    },
+    {
+     "date": "2026-12-06",
+     "yhat": 16.47,
+     "yhat_lower": 11.01,
+     "yhat_upper": 21.92
+    },
+    {
+     "date": "2026-12-07",
+     "yhat": 23.33,
+     "yhat_lower": 17.88,
+     "yhat_upper": 28.78
+    },
+    {
+     "date": "2026-12-08",
+     "yhat": 20.3,
+     "yhat_lower": 14.85,
+     "yhat_upper": 25.76
+    },
+    {
+     "date": "2026-12-09",
+     "yhat": 18.29,
+     "yhat_lower": 12.83,
+     "yhat_upper": 23.74
+    },
+    {
+     "date": "2026-12-10",
+     "yhat": 18.37,
+     "yhat_lower": 12.92,
+     "yhat_upper": 23.83
+    },
+    {
+     "date": "2026-12-11",
+     "yhat": 19.6,
+     "yhat_lower": 14.15,
+     "yhat_upper": 25.05
+    },
+    {
+     "date": "2026-12-12",
+     "yhat": 21.77,
+     "yhat_lower": 16.32,
+     "yhat_upper": 27.23
+    },
+    {
+     "date": "2026-12-13",
+     "yhat": 16.58,
+     "yhat_lower": 11.13,
+     "yhat_upper": 22.03
+    },
+    {
+     "date": "2026-12-14",
+     "yhat": 23.44,
+     "yhat_lower": 17.99,
+     "yhat_upper": 28.9
+    },
+    {
+     "date": "2026-12-15",
+     "yhat": 20.41,
+     "yhat_lower": 14.96,
+     "yhat_upper": 25.87
+    }
+   ],
+   "preprocessing": {
+    "input_rows": 240,
+    "dropped_non_numeric": 0,
+    "dropped_negative": 0,
+    "dropped_future": 0,
+    "dropped_bad_date": 0,
+    "dropped_invalid": 0,
+    "zero_filled_days": 0
+   },
+   "generated_at": "2026-11-16T06:00:00Z",
+   "actuals": [
+    {
+     "date": "2026-09-17",
+     "quantity": 8
+    },
+    {
+     "date": "2026-09-18",
+     "quantity": 19
+    },
+    {
+     "date": "2026-09-19",
+     "quantity": 15
+    },
+    {
+     "date": "2026-09-20",
+     "quantity": 22
+    },
+    {
+     "date": "2026-09-21",
+     "quantity": 28
+    },
+    {
+     "date": "2026-09-22",
+     "quantity": 20
+    },
+    {
+     "date": "2026-09-23",
+     "quantity": 18
+    },
+    {
+     "date": "2026-09-24",
+     "quantity": 15
+    },
+    {
+     "date": "2026-09-25",
+     "quantity": 14
+    },
+    {
+     "date": "2026-09-26",
+     "quantity": 23
+    },
+    {
+     "date": "2026-09-27",
+     "quantity": 12
+    },
+    {
+     "date": "2026-09-28",
+     "quantity": 29
+    },
+    {
+     "date": "2026-09-29",
+     "quantity": 18
+    },
+    {
+     "date": "2026-09-30",
+     "quantity": 23
+    },
+    {
+     "date": "2026-10-01",
+     "quantity": 19
+    },
+    {
+     "date": "2026-10-02",
+     "quantity": 20
+    },
+    {
+     "date": "2026-10-03",
+     "quantity": 20
+    },
+    {
+     "date": "2026-10-04",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-05",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-06",
+     "quantity": 21
+    },
+    {
+     "date": "2026-10-07",
+     "quantity": 11
+    },
+    {
+     "date": "2026-10-08",
+     "quantity": 22
+    },
+    {
+     "date": "2026-10-09",
+     "quantity": 15
+    },
+    {
+     "date": "2026-10-10",
+     "quantity": 26
+    },
+    {
+     "date": "2026-10-11",
+     "quantity": 24
+    },
+    {
+     "date": "2026-10-12",
+     "quantity": 29
+    },
+    {
+     "date": "2026-10-13",
+     "quantity": 14
+    },
+    {
+     "date": "2026-10-14",
+     "quantity": 13
+    },
+    {
+     "date": "2026-10-15",
+     "quantity": 14
+    },
+    {
+     "date": "2026-10-16",
+     "quantity": 29
+    },
+    {
+     "date": "2026-10-17",
+     "quantity": 20
+    },
+    {
+     "date": "2026-10-18",
+     "quantity": 12
+    },
+    {
+     "date": "2026-10-19",
+     "quantity": 21
+    },
+    {
+     "date": "2026-10-20",
+     "quantity": 23
+    },
+    {
+     "date": "2026-10-21",
+     "quantity": 13
+    },
+    {
+     "date": "2026-10-22",
+     "quantity": 21
+    },
+    {
+     "date": "2026-10-23",
+     "quantity": 22
+    },
+    {
+     "date": "2026-10-24",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-25",
+     "quantity": 14
+    },
+    {
+     "date": "2026-10-26",
+     "quantity": 21
+    },
+    {
+     "date": "2026-10-27",
+     "quantity": 27
+    },
+    {
+     "date": "2026-10-28",
+     "quantity": 15
+    },
+    {
+     "date": "2026-10-29",
+     "quantity": 16
+    },
+    {
+     "date": "2026-10-30",
+     "quantity": 18
+    },
+    {
+     "date": "2026-10-31",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-01",
+     "quantity": 15
+    },
+    {
+     "date": "2026-11-02",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-03",
+     "quantity": 28
+    },
+    {
+     "date": "2026-11-04",
+     "quantity": 15
+    },
+    {
+     "date": "2026-11-05",
+     "quantity": 22
+    },
+    {
+     "date": "2026-11-06",
+     "quantity": 25
+    },
+    {
+     "date": "2026-11-07",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-08",
+     "quantity": 13
+    },
+    {
+     "date": "2026-11-09",
+     "quantity": 25
+    },
+    {
+     "date": "2026-11-10",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-11",
+     "quantity": 19
+    },
+    {
+     "date": "2026-11-12",
+     "quantity": 18
+    },
+    {
+     "date": "2026-11-13",
+     "quantity": 19
+    },
+    {
+     "date": "2026-11-14",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-15",
+     "quantity": 13
+    }
+   ]
+  },
+  {
+   "drug_id": "Azithromycin 500 mg",
+   "branch_id": "Malviya Nagar Pharmacy",
+   "model_used": "prophet",
+   "horizon_days": 30,
+   "history_days": 240,
+   "candidates": {
+    "prophet": {
+     "mape": 37.52
+    },
+    "linear_regression": {
+     "mape": 38.29
+    }
+   },
+   "mape": 37.52,
+   "confidence": "LOW",
+   "avg_daily_demand": 7.26,
+   "daily_predictions": [
+    {
+     "date": "2026-11-16",
+     "yhat": 8.59,
+     "yhat_lower": 5.24,
+     "yhat_upper": 11.92
+    },
+    {
+     "date": "2026-11-17",
+     "yhat": 7.06,
+     "yhat_lower": 3.78,
+     "yhat_upper": 10.79
+    },
+    {
+     "date": "2026-11-18",
+     "yhat": 6.29,
+     "yhat_lower": 2.46,
+     "yhat_upper": 9.4
+    },
+    {
+     "date": "2026-11-19",
+     "yhat": 6.94,
+     "yhat_lower": 3.77,
+     "yhat_upper": 11.11
+    },
+    {
+     "date": "2026-11-20",
+     "yhat": 7.23,
+     "yhat_lower": 4.46,
+     "yhat_upper": 10.71
+    },
+    {
+     "date": "2026-11-21",
+     "yhat": 8.7,
+     "yhat_lower": 5.41,
+     "yhat_upper": 12.18
+    },
+    {
+     "date": "2026-11-22",
+     "yhat": 5.53,
+     "yhat_lower": 2.2,
+     "yhat_upper": 8.58
+    },
+    {
+     "date": "2026-11-23",
+     "yhat": 8.6,
+     "yhat_lower": 5.69,
+     "yhat_upper": 11.99
+    },
+    {
+     "date": "2026-11-24",
+     "yhat": 7.07,
+     "yhat_lower": 4.06,
+     "yhat_upper": 10.59
+    },
+    {
+     "date": "2026-11-25",
+     "yhat": 6.31,
+     "yhat_lower": 2.93,
+     "yhat_upper": 10.09
+    },
+    {
+     "date": "2026-11-26",
+     "yhat": 6.96,
+     "yhat_lower": 3.52,
+     "yhat_upper": 10.26
+    },
+    {
+     "date": "2026-11-27",
+     "yhat": 7.25,
+     "yhat_lower": 3.81,
+     "yhat_upper": 10.62
+    },
+    {
+     "date": "2026-11-28",
+     "yhat": 8.72,
+     "yhat_lower": 5.14,
+     "yhat_upper": 12.2
+    },
+    {
+     "date": "2026-11-29",
+     "yhat": 5.55,
+     "yhat_lower": 1.86,
+     "yhat_upper": 8.79
+    },
+    {
+     "date": "2026-11-30",
+     "yhat": 8.62,
+     "yhat_lower": 4.74,
+     "yhat_upper": 11.81
+    },
+    {
+     "date": "2026-12-01",
+     "yhat": 7.09,
+     "yhat_lower": 3.85,
+     "yhat_upper": 10.64
+    },
+    {
+     "date": "2026-12-02",
+     "yhat": 6.33,
+     "yhat_lower": 2.7,
+     "yhat_upper": 9.54
+    },
+    {
+     "date": "2026-12-03",
+     "yhat": 6.98,
+     "yhat_lower": 2.82,
+     "yhat_upper": 10.12
+    },
+    {
+     "date": "2026-12-04",
+     "yhat": 7.27,
+     "yhat_lower": 4.23,
+     "yhat_upper": 10.34
+    },
+    {
+     "date": "2026-12-05",
+     "yhat": 8.74,
+     "yhat_lower": 4.8,
+     "yhat_upper": 11.99
+    },
+    {
+     "date": "2026-12-06",
+     "yhat": 5.57,
+     "yhat_lower": 2.37,
+     "yhat_upper": 9.4
+    },
+    {
+     "date": "2026-12-07",
+     "yhat": 8.64,
+     "yhat_lower": 5.78,
+     "yhat_upper": 12.22
+    },
+    {
+     "date": "2026-12-08",
+     "yhat": 7.11,
+     "yhat_lower": 4.01,
+     "yhat_upper": 10.67
+    },
+    {
+     "date": "2026-12-09",
+     "yhat": 6.35,
+     "yhat_lower": 2.81,
+     "yhat_upper": 9.91
+    },
+    {
+     "date": "2026-12-10",
+     "yhat": 6.99,
+     "yhat_lower": 3.24,
+     "yhat_upper": 10.66
+    },
+    {
+     "date": "2026-12-11",
+     "yhat": 7.29,
+     "yhat_lower": 3.88,
+     "yhat_upper": 10.64
+    },
+    {
+     "date": "2026-12-12",
+     "yhat": 8.76,
+     "yhat_lower": 5.69,
+     "yhat_upper": 12.41
+    },
+    {
+     "date": "2026-12-13",
+     "yhat": 5.59,
+     "yhat_lower": 2.08,
+     "yhat_upper": 9.66
+    },
+    {
+     "date": "2026-12-14",
+     "yhat": 8.66,
+     "yhat_lower": 4.94,
+     "yhat_upper": 12.52
+    },
+    {
+     "date": "2026-12-15",
+     "yhat": 7.13,
+     "yhat_lower": 3.41,
+     "yhat_upper": 10.47
+    }
+   ],
+   "preprocessing": {
+    "input_rows": 240,
+    "dropped_non_numeric": 0,
+    "dropped_negative": 0,
+    "dropped_future": 0,
+    "dropped_bad_date": 0,
+    "dropped_invalid": 0,
+    "zero_filled_days": 0
+   },
+   "generated_at": "2026-11-16T06:00:00Z",
+   "actuals": [
+    {
+     "date": "2026-09-17",
+     "quantity": 7
+    },
+    {
+     "date": "2026-09-18",
+     "quantity": 5
+    },
+    {
+     "date": "2026-09-19",
+     "quantity": 5
+    },
+    {
+     "date": "2026-09-20",
+     "quantity": 4
+    },
+    {
+     "date": "2026-09-21",
+     "quantity": 7
+    },
+    {
+     "date": "2026-09-22",
+     "quantity": 10
+    },
+    {
+     "date": "2026-09-23",
+     "quantity": 7
+    },
+    {
+     "date": "2026-09-24",
+     "quantity": 12
+    },
+    {
+     "date": "2026-09-25",
+     "quantity": 4
+    },
+    {
+     "date": "2026-09-26",
+     "quantity": 9
+    },
+    {
+     "date": "2026-09-27",
+     "quantity": 4
+    },
+    {
+     "date": "2026-09-28",
+     "quantity": 8
+    },
+    {
+     "date": "2026-09-29",
+     "quantity": 8
+    },
+    {
+     "date": "2026-09-30",
+     "quantity": 4
+    },
+    {
+     "date": "2026-10-01",
+     "quantity": 6
+    },
+    {
+     "date": "2026-10-02",
+     "quantity": 11
+    },
+    {
+     "date": "2026-10-03",
+     "quantity": 7
+    },
+    {
+     "date": "2026-10-04",
+     "quantity": 4
+    },
+    {
+     "date": "2026-10-05",
+     "quantity": 8
+    },
+    {
+     "date": "2026-10-06",
+     "quantity": 5
+    },
+    {
+     "date": "2026-10-07",
+     "quantity": 8
+    },
+    {
+     "date": "2026-10-08",
+     "quantity": 5
+    },
+    {
+     "date": "2026-10-09",
+     "quantity": 7
+    },
+    {
+     "date": "2026-10-10",
+     "quantity": 9
+    },
+    {
+     "date": "2026-10-11",
+     "quantity": 8
+    },
+    {
+     "date": "2026-10-12",
+     "quantity": 12
+    },
+    {
+     "date": "2026-10-13",
+     "quantity": 3
+    },
+    {
+     "date": "2026-10-14",
+     "quantity": 8
+    },
+    {
+     "date": "2026-10-15",
+     "quantity": 5
+    },
+    {
+     "date": "2026-10-16",
+     "quantity": 5
+    },
+    {
+     "date": "2026-10-17",
+     "quantity": 5
+    },
+    {
+     "date": "2026-10-18",
+     "quantity": 6
+    },
+    {
+     "date": "2026-10-19",
+     "quantity": 8
+    },
+    {
+     "date": "2026-10-20",
+     "quantity": 5
+    },
+    {
+     "date": "2026-10-21",
+     "quantity": 3
+    },
+    {
+     "date": "2026-10-22",
+     "quantity": 8
+    },
+    {
+     "date": "2026-10-23",
+     "quantity": 2
+    },
+    {
+     "date": "2026-10-24",
+     "quantity": 8
+    },
+    {
+     "date": "2026-10-25",
+     "quantity": 6
+    },
+    {
+     "date": "2026-10-26",
+     "quantity": 11
+    },
+    {
+     "date": "2026-10-27",
+     "quantity": 7
+    },
+    {
+     "date": "2026-10-28",
+     "quantity": 9
+    },
+    {
+     "date": "2026-10-29",
+     "quantity": 13
+    },
+    {
+     "date": "2026-10-30",
+     "quantity": 8
+    },
+    {
+     "date": "2026-10-31",
+     "quantity": 8
+    },
+    {
+     "date": "2026-11-01",
+     "quantity": 7
+    },
+    {
+     "date": "2026-11-02",
+     "quantity": 12
+    },
+    {
+     "date": "2026-11-03",
+     "quantity": 8
+    },
+    {
+     "date": "2026-11-04",
+     "quantity": 9
+    },
+    {
+     "date": "2026-11-05",
+     "quantity": 7
+    },
+    {
+     "date": "2026-11-06",
+     "quantity": 3
+    },
+    {
+     "date": "2026-11-07",
+     "quantity": 20
+    },
+    {
+     "date": "2026-11-08",
+     "quantity": 2
+    },
+    {
+     "date": "2026-11-09",
+     "quantity": 11
+    },
+    {
+     "date": "2026-11-10",
+     "quantity": 9
+    },
+    {
+     "date": "2026-11-11",
+     "quantity": 5
+    },
+    {
+     "date": "2026-11-12",
+     "quantity": 10
+    },
+    {
+     "date": "2026-11-13",
+     "quantity": 10
+    },
+    {
+     "date": "2026-11-14",
+     "quantity": 7
+    },
+    {
+     "date": "2026-11-15",
+     "quantity": 6
+    }
+   ]
+  }
+ ]
+}

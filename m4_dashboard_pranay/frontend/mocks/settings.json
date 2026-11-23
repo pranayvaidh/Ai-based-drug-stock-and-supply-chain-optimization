@@ -1,0 +1,10 @@
+{
+ "_note": "SAMPLE DATA shaped like GET /settings",
+ "settings": {
+  "expiry_warning_days": 30,
+  "max_cover_days": 60,
+  "review_days": 7,
+  "z_value": 1.65,
+  "anomaly_limit": 3
+ }
+}

@@ -1,0 +1,13 @@
+# Optional: run MongoDB 8 in Docker instead of a local install.
+#   docker compose up -d
+services:
+  mongo:
+    image: mongo:8.0
+    container_name: dsc-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+volumes:
+  mongo_data:

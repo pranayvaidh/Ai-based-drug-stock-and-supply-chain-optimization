@@ -1,0 +1,3 @@
+# Install everything from the repo root:  pip install -r requirements.txt
+-r m1_auth_lucky/requirements.txt
+-r m3_ml_kushagra/requirements.txt

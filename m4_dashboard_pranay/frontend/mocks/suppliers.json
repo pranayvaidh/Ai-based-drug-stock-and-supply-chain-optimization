@@ -1,0 +1,122 @@
+{
+ "_note": "SAMPLE DATA shaped like GET /dashboard/suppliers",
+ "suppliers": [
+  {
+   "supplier": "Rajasthan Pharma Distributors",
+   "on_time_rate": 0.92,
+   "avg_lead_time_days": 5.2,
+   "orders_delivered": 48,
+   "fill_rate": 0.97,
+   "trend": [
+    {
+     "month": "Jun",
+     "on_time_rate": 0.88,
+     "avg_lead_time_days": 5.6
+    },
+    {
+     "month": "Jul",
+     "on_time_rate": 0.9,
+     "avg_lead_time_days": 5.4
+    },
+    {
+     "month": "Aug",
+     "on_time_rate": 0.91,
+     "avg_lead_time_days": 5.3
+    },
+    {
+     "month": "Sep",
+     "on_time_rate": 0.93,
+     "avg_lead_time_days": 5.1
+    },
+    {
+     "month": "Oct",
+     "on_time_rate": 0.94,
+     "avg_lead_time_days": 5.0
+    },
+    {
+     "month": "Nov",
+     "on_time_rate": 0.92,
+     "avg_lead_time_days": 5.2
+    }
+   ]
+  },
+  {
+   "supplier": "MedLine Wholesale",
+   "on_time_rate": 0.78,
+   "avg_lead_time_days": 7.9,
+   "orders_delivered": 36,
+   "fill_rate": 0.91,
+   "trend": [
+    {
+     "month": "Jun",
+     "on_time_rate": 0.82,
+     "avg_lead_time_days": 7.2
+    },
+    {
+     "month": "Jul",
+     "on_time_rate": 0.8,
+     "avg_lead_time_days": 7.5
+    },
+    {
+     "month": "Aug",
+     "on_time_rate": 0.76,
+     "avg_lead_time_days": 8.1
+    },
+    {
+     "month": "Sep",
+     "on_time_rate": 0.74,
+     "avg_lead_time_days": 8.4
+    },
+    {
+     "month": "Oct",
+     "on_time_rate": 0.79,
+     "avg_lead_time_days": 7.8
+    },
+    {
+     "month": "Nov",
+     "on_time_rate": 0.78,
+     "avg_lead_time_days": 7.9
+    }
+   ]
+  },
+  {
+   "supplier": "Shree Ganesh Medical Agencies",
+   "on_time_rate": 0.95,
+   "avg_lead_time_days": 3.1,
+   "orders_delivered": 52,
+   "fill_rate": 0.98,
+   "trend": [
+    {
+     "month": "Jun",
+     "on_time_rate": 0.93,
+     "avg_lead_time_days": 3.3
+    },
+    {
+     "month": "Jul",
+     "on_time_rate": 0.94,
+     "avg_lead_time_days": 3.2
+    },
+    {
+     "month": "Aug",
+     "on_time_rate": 0.96,
+     "avg_lead_time_days": 3.0
+    },
+    {
+     "month": "Sep",
+     "on_time_rate": 0.95,
+     "avg_lead_time_days": 3.1
+    },
+    {
+     "month": "Oct",
+     "on_time_rate": 0.96,
+     "avg_lead_time_days": 3.0
+    },
+    {
+     "month": "Nov",
+     "on_time_rate": 0.95,
+     "avg_lead_time_days": 3.1
+    }
+   ]
+  }
+ ]
+}

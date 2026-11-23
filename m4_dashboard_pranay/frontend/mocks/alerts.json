@@ -1,0 +1,236 @@
+{
+ "_note": "SAMPLE DATA shaped like GET /alerts",
+ "alerts": [
+  {
+   "id": "al-003",
+   "batch_no": null,
+   "resolved": false,
+   "type": "STOCKOUT",
+   "severity": "CRITICAL",
+   "drug": "Cetirizine 10 mg",
+   "branch": "Malviya Nagar Pharmacy",
+   "message": "Stock 114 at or below reorder point 150 (~4.4 days of cover)",
+   "created_at": "2026-11-16T02:00:00Z"
+  },
+  {
+   "id": "al-005",
+   "batch_no": null,
+   "resolved": false,
+   "type": "OVERSTOCK",
+   "severity": "WARNING",
+   "drug": "Azithromycin 500 mg",
+   "branch": "Jagatpura Pharmacy",
+   "message": "78.3 days of cover exceeds the 60-day limit",
+   "created_at": "2026-11-15T23:00:00Z"
+  },
+  {
+   "id": "al-009",
+   "batch_no": null,
+   "resolved": false,
+   "type": "STOCKOUT",
+   "severity": "WARNING",
+   "drug": "Insulin Glargine 100 IU/ml",
+   "branch": "Jagatpura Pharmacy",
+   "message": "Stock 8 at or below reorder point 12 (~3.3 days of cover)",
+   "created_at": "2026-11-15T14:00:00Z"
+  },
+  {
+   "id": "al-017",
+   "batch_no": "JP-07A-26",
+   "resolved": false,
+   "type": "EXPIRY_RISK",
+   "severity": "WARNING",
+   "drug": "ORS Sachet",
+   "branch": "Jagatpura Pharmacy",
+   "message": "60 units of batch JP-07A-26 expire in 29 days",
+   "created_at": "2026-11-15T03:00:00Z"
+  },
+  {
+   "id": "al-004",
+   "batch_no": null,
+   "resolved": false,
+   "type": "STOCKOUT",
+   "severity": "CRITICAL",
+   "drug": "Cetirizine 10 mg",
+   "branch": "Jagatpura Pharmacy",
+   "message": "Stock 51 at or below reorder point 106 (~2.8 days of cover)",
+   "created_at": "2026-11-15T01:00:00Z"
+  },
+  {
+   "id": "al-016",
+   "batch_no": "MN-12A-26",
+   "resolved": false,
+   "type": "EXPIRY_RISK",
+   "severity": "WARNING",
+   "drug": "Ibuprofen 400 mg",
+   "branch": "Malviya Nagar Pharmacy",
+   "message": "45 units of batch MN-12A-26 expire in 27 days",
+   "created_at": "2026-11-14T22:00:00Z"
+  },
+  {
+   "id": "al-014",
+   "batch_no": "VN-11A-26",
+   "resolved": false,
+   "type": "EXPIRY_RISK",
+   "severity": "WARNING",
+   "drug": "Vitamin D3 60K",
+   "branch": "Vaishali Nagar Pharmacy",
+   "message": "40 units of batch VN-11A-26 expire in 19 days",
+   "created_at": "2026-11-14T20:00:00Z"
+  },
+  {
+   "id": "al-012",
+   "batch_no": "JP-02A-26",
+   "resolved": false,
+   "type": "EXPIRY_RISK",
+   "severity": "CRITICAL",
+   "drug": "Amoxicillin 250 mg",
+   "branch": "Jagatpura Pharmacy",
+   "message": "34 units of batch JP-02A-26 expire in 9 days",
+   "created_at": "2026-11-14T17:00:00Z"
+  },
+  {
+   "id": "al-013",
+   "batch_no": "JP-05A-26",
+   "resolved": false,
+   "type": "EXPIRY_RISK",
+   "severity": "CRITICAL",
+   "drug": "Azithromycin 500 mg",
+   "branch": "Jagatpura Pharmacy",
+   "message": "22 units of batch JP-05A-26 expire in 14 days",
+   "created_at": "2026-11-14T11:00:00Z"
+  },
+  {
+   "id": "al-015",
+   "batch_no": "MN-06A-26",
+   "resolved": false,
+   "type": "EXPIRY_RISK",
+   "severity": "WARNING",
+   "drug": "Pantoprazole 40 mg",
+   "branch": "Malviya Nagar Pharmacy",
+   "message": "28 units of batch MN-06A-26 expire in 24 days",
+   "created_at": "2026-11-14T08:00:00Z"
+  },
+  {
+   "id": "al-001",
+   "batch_no": null,
+   "resolved": false,
+   "type": "STOCKOUT",
+   "severity": "CRITICAL",
+   "drug": "Paracetamol 500 mg",
+   "branch": "Malviya Nagar Pharmacy",
+   "message": "Stock 120 at or below reorder point 291 (~2.3 days of cover)",
+   "created_at": "2026-11-14T03:00:00Z"
+  },
+  {
+   "id": "al-002",
+   "batch_no": null,
+   "resolved": false,
+   "type": "STOCKOUT",
+   "severity": "CRITICAL",
+   "drug": "Amoxicillin 250 mg",
+   "branch": "Vaishali Nagar Pharmacy",
+   "message": "Stock 54 at or below reorder point 116 (~3.9 days of cover)",
+   "created_at": "2026-11-14T00:00:00Z"
+  },
+  {
+   "id": "al-007",
+   "batch_no": null,
+   "resolved": false,
+   "type": "OVERSTOCK",
+   "severity": "WARNING",
+   "drug": "ORS Sachet",
+   "branch": "Jagatpura Pharmacy",
+   "message": "94.9 days of cover exceeds the 60-day limit",
+   "created_at": "2026-11-13T23:00:00Z"
+  },
+  {
+   "id": "al-008",
+   "batch_no": null,
+   "resolved": false,
+   "type": "STOCKOUT",
+   "severity": "CRITICAL",
+   "drug": "Dextromethorphan Syrup 100 ml",
+   "branch": "Vaishali Nagar Pharmacy",
+   "message": "Stock 60 at or below reorder point 112 (~4.4 days of cover)",
+   "created_at": "2026-11-13T16:00:00Z"
+  },
+  {
+   "id": "al-011",
+   "batch_no": null,
+   "resolved": false,
+   "type": "OVERSTOCK",
+   "severity": "WARNING",
+   "drug": "Ibuprofen 400 mg",
+   "branch": "Malviya Nagar Pharmacy",
+   "message": "77.7 days of cover exceeds the 60-day limit",
+   "created_at": "2026-11-13T06:00:00Z"
+  },
+  {
+   "id": "al-006",
+   "batch_no": null,
+   "resolved": false,
+   "type": "OVERSTOCK",
+   "severity": "WARNING",
+   "drug": "ORS Sachet",
+   "branch": "Malviya Nagar Pharmacy",
+   "message": "92.8 days of cover exceeds the 60-day limit",
+   "created_at": "2026-11-12T10:00:00Z"
+  },
+  {
+   "id": "al-010",
+   "batch_no": null,
+   "resolved": false,
+   "type": "OVERSTOCK",
+   "severity": "WARNING",
+   "drug": "Vitamin D3 60K",
+   "branch": "Vaishali Nagar Pharmacy",
+   "message": "91.7 days of cover exceeds the 60-day limit",
+   "created_at": "2026-11-11T07:00:00Z"
+  },
+  {
+   "id": "al-019",
+   "batch_no": null,
+   "resolved": true,
+   "type": "STOCKOUT",
+   "severity": "CRITICAL",
+   "drug": "Metformin 500 mg",
+   "branch": "Jagatpura Pharmacy",
+   "message": "Stock fell below reorder point (resolved by PO delivery)",
+   "created_at": "2026-11-02T09:00:00Z"
+  },
+  {
+   "id": "al-020",
+   "batch_no": null,
+   "resolved": true,
+   "type": "EXPIRY_RISK",
+   "severity": "WARNING",
+   "drug": "Ibuprofen 400 mg",
+   "branch": "Vaishali Nagar Pharmacy",
+   "message": "Batch VN-12A-26 moved to Malviya Nagar before expiry",
+   "created_at": "2026-10-29T11:00:00Z"
+  },
+  {
+   "id": "al-018",
+   "batch_no": null,
+   "resolved": false,
+   "type": "ANOMALY",
+   "severity": "INFO",
+   "drug": "Paracetamol 500 mg",
+   "branch": "Malviya Nagar Pharmacy",
+   "message": "Demand spike: 2 days at ~5x normal (z = 7.8) on 25–26 Oct",
+   "created_at": "2026-10-27T06:00:00Z"
+  },
+  {
+   "id": "al-021",
+   "batch_no": null,
+   "resolved": true,
+   "type": "OVERSTOCK",
+   "severity": "WARNING",
+   "drug": "Pantoprazole 40 mg",
+   "branch": "Jagatpura Pharmacy",
+   "message": "Cover back under 60 days",
+   "created_at": "2026-10-21T08:00:00Z"
+  }
+ ]
+}

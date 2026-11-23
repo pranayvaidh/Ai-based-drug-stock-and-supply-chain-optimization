@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-tap-highlight-color: transparent; }
+}
+
+@layer components {
+  .card { @apply rounded-xl border border-slate-200 bg-white shadow-sm; }
+  .card-header { @apply flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 px-4 py-3; }
+  .card-title { @apply text-sm font-semibold text-slate-700; }
+  .skeleton { @apply animate-pulse rounded bg-slate-200; }
+}

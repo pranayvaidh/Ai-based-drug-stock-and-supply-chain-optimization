@@ -1,0 +1,665 @@
+{
+ "_note": "SAMPLE DATA shaped like GET /dashboard/overview (contract: m4_dashboard_pranay/contracts/DASHBOARD_API_CONTRACT.md). KPIs and latest_alerts are derived from these lists by dashboardService.js so every widget agrees.",
+ "drugs": [
+  {
+   "name": "Paracetamol 500 mg",
+   "category": "Analgesic"
+  },
+  {
+   "name": "Amoxicillin 250 mg",
+   "category": "Antibiotic"
+  },
+  {
+   "name": "Metformin 500 mg",
+   "category": "Antidiabetic"
+  },
+  {
+   "name": "Cetirizine 10 mg",
+   "category": "Antihistamine"
+  },
+  {
+   "name": "Azithromycin 500 mg",
+   "category": "Antibiotic"
+  },
+  {
+   "name": "Pantoprazole 40 mg",
+   "category": "Antacid"
+  },
+  {
+   "name": "ORS Sachet",
+   "category": "Electrolyte"
+  },
+  {
+   "name": "Dextromethorphan Syrup 100 ml",
+   "category": "Cough & Cold"
+  },
+  {
+   "name": "Insulin Glargine 100 IU/ml",
+   "category": "Antidiabetic"
+  },
+  {
+   "name": "Atorvastatin 10 mg",
+   "category": "Cardiovascular"
+  },
+  {
+   "name": "Vitamin D3 60K",
+   "category": "Supplement"
+  },
+  {
+   "name": "Ibuprofen 400 mg",
+   "category": "Analgesic"
+  }
+ ],
+ "branches": [
+  "Malviya Nagar Pharmacy",
+  "Vaishali Nagar Pharmacy",
+  "Jagatpura Pharmacy",
+  "Central Warehouse Jaipur"
+ ],
+ "heatmap": {
+  "cells": [
+   {
+    "drug": "Paracetamol 500 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "STOCKOUT_RISK",
+    "stock": 120,
+    "days_of_cover": 2.3,
+    "rop": 291,
+    "avg_daily_demand": 52.4
+   },
+   {
+    "drug": "Paracetamol 500 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 1248,
+    "days_of_cover": 27.4,
+    "rop": 255,
+    "avg_daily_demand": 45.6
+   },
+   {
+    "drug": "Paracetamol 500 mg",
+    "branch": "Jagatpura Pharmacy",
+    "status": "HEALTHY",
+    "stock": 1013,
+    "days_of_cover": 27.8,
+    "rop": 208,
+    "avg_daily_demand": 36.5
+   },
+   {
+    "drug": "Paracetamol 500 mg",
+    "branch": "Central Warehouse Jaipur",
+    "status": "HEALTHY",
+    "stock": 1886,
+    "days_of_cover": 40.0,
+    "rop": 264,
+    "avg_daily_demand": 47.1
+   },
+   {
+    "drug": "Amoxicillin 250 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 250,
+    "days_of_cover": 15.5,
+    "rop": 132,
+    "avg_daily_demand": 16.1
+   },
+   {
+    "drug": "Amoxicillin 250 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "STOCKOUT_RISK",
+    "stock": 54,
+    "days_of_cover": 3.9,
+    "rop": 116,
+    "avg_daily_demand": 14.0
+   },
+   {
+    "drug": "Amoxicillin 250 mg",
+    "branch": "Jagatpura Pharmacy",
+    "status": "HEALTHY",
+    "stock": 358,
+    "days_of_cover": 32.0,
+    "rop": 94,
+    "avg_daily_demand": 11.2
+   },
+   {
+    "drug": "Amoxicillin 250 mg",
+    "branch": "Central Warehouse Jaipur",
+    "status": "HEALTHY",
+    "stock": 441,
+    "days_of_cover": 30.4,
+    "rop": 120,
+    "avg_daily_demand": 14.5
+   },
+   {
+    "drug": "Metformin 500 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 1018,
+    "days_of_cover": 36.9,
+    "rop": 100,
+    "avg_daily_demand": 27.6
+   },
+   {
+    "drug": "Metformin 500 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 674,
+    "days_of_cover": 28.1,
+    "rop": 87,
+    "avg_daily_demand": 24.0
+   },
+   {
+    "drug": "Metformin 500 mg",
+    "branch": "Jagatpura Pharmacy",
+    "status": "HEALTHY",
+    "stock": 671,
+    "days_of_cover": 34.9,
+    "rop": 72,
+    "avg_daily_demand": 19.2
+   },
+   {
+    "drug": "Metformin 500 mg",
+    "branch": "Central Warehouse Jaipur",
+    "status": "HEALTHY",
+    "stock": 901,
+    "days_of_cover": 36.3,
+    "rop": 90,
+    "avg_daily_demand": 24.8
+   },
+   {
+    "drug": "Cetirizine 10 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "STOCKOUT_RISK",
+    "stock": 114,
+    "days_of_cover": 4.4,
+    "rop": 150,
+    "avg_daily_demand": 25.8
+   },
+   {
+    "drug": "Cetirizine 10 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 682,
+    "days_of_cover": 30.4,
+    "rop": 131,
+    "avg_daily_demand": 22.4
+   },
+   {
+    "drug": "Cetirizine 10 mg",
+    "branch": "Jagatpura Pharmacy",
+    "status": "STOCKOUT_RISK",
+    "stock": 51,
+    "days_of_cover": 2.8,
+    "rop": 106,
+    "avg_daily_demand": 17.9
+   },
+   {
+    "drug": "Cetirizine 10 mg",
+    "branch": "Central Warehouse Jaipur",
+    "status": "HEALTHY",
+    "stock": 726,
+    "days_of_cover": 31.4,
+    "rop": 136,
+    "avg_daily_demand": 23.1
+   },
+   {
+    "drug": "Azithromycin 500 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 113,
+    "days_of_cover": 16.4,
+    "rop": 61,
+    "avg_daily_demand": 6.9
+   },
+   {
+    "drug": "Azithromycin 500 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 234,
+    "days_of_cover": 39.0,
+    "rop": 54,
+    "avg_daily_demand": 6.0
+   },
+   {
+    "drug": "Azithromycin 500 mg",
+    "branch": "Jagatpura Pharmacy",
+    "status": "OVERSTOCK",
+    "stock": 376,
+    "days_of_cover": 78.3,
+    "rop": 45,
+    "avg_daily_demand": 4.8
+   },
+   {
+    "drug": "Azithromycin 500 mg",
+    "branch": "Central Warehouse Jaipur",
+    "status": "NO_DATA",
+    "stock": 331,
+    "days_of_cover": null,
+    "rop": null,
+    "avg_daily_demand": null
+   },
+   {
+    "drug": "Pantoprazole 40 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 759,
+    "days_of_cover": 33.0,
+    "rop": 84,
+    "avg_daily_demand": 23.0
+   },
+   {
+    "drug": "Pantoprazole 40 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 310,
+    "days_of_cover": 15.5,
+    "rop": 74,
+    "avg_daily_demand": 20.0
+   },
+   {
+    "drug": "Pantoprazole 40 mg",
+    "branch": "Jagatpura Pharmacy",
+    "status": "HEALTHY",
+    "stock": 274,
+    "days_of_cover": 17.1,
+    "rop": 61,
+    "avg_daily_demand": 16.0
+   },
+   {
+    "drug": "Pantoprazole 40 mg",
+    "branch": "Central Warehouse Jaipur",
+    "status": "HEALTHY",
+    "stock": 911,
+    "days_of_cover": 44.2,
+    "rop": 76,
+    "avg_daily_demand": 20.6
+   },
+   {
+    "drug": "ORS Sachet",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "OVERSTOCK",
+    "stock": 2219,
+    "days_of_cover": 92.8,
+    "rop": 140,
+    "avg_daily_demand": 23.9
+   },
+   {
+    "drug": "ORS Sachet",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 793,
+    "days_of_cover": 38.1,
+    "rop": 123,
+    "avg_daily_demand": 20.8
+   },
+   {
+    "drug": "ORS Sachet",
+    "branch": "Jagatpura Pharmacy",
+    "status": "OVERSTOCK",
+    "stock": 1576,
+    "days_of_cover": 94.9,
+    "rop": 100,
+    "avg_daily_demand": 16.6
+   },
+   {
+    "drug": "ORS Sachet",
+    "branch": "Central Warehouse Jaipur",
+    "status": "HEALTHY",
+    "stock": 600,
+    "days_of_cover": 27.9,
+    "rop": 126,
+    "avg_daily_demand": 21.5
+   },
+   {
+    "drug": "Dextromethorphan Syrup 100 ml",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 228,
+    "days_of_cover": 14.7,
+    "rop": 128,
+    "avg_daily_demand": 15.5
+   },
+   {
+    "drug": "Dextromethorphan Syrup 100 ml",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "STOCKOUT_RISK",
+    "stock": 60,
+    "days_of_cover": 4.4,
+    "rop": 112,
+    "avg_daily_demand": 13.5
+   },
+   {
+    "drug": "Dextromethorphan Syrup 100 ml",
+    "branch": "Jagatpura Pharmacy",
+    "status": "HEALTHY",
+    "stock": 330,
+    "days_of_cover": 30.6,
+    "rop": 92,
+    "avg_daily_demand": 10.8
+   },
+   {
+    "drug": "Dextromethorphan Syrup 100 ml",
+    "branch": "Central Warehouse Jaipur",
+    "status": "HEALTHY",
+    "stock": 303,
+    "days_of_cover": 21.8,
+    "rop": 115,
+    "avg_daily_demand": 13.9
+   },
+   {
+    "drug": "Insulin Glargine 100 IU/ml",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 86,
+    "days_of_cover": 25.3,
+    "rop": 16,
+    "avg_daily_demand": 3.4
+   },
+   {
+    "drug": "Insulin Glargine 100 IU/ml",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 121,
+    "days_of_cover": 40.3,
+    "rop": 14,
+    "avg_daily_demand": 3.0
+   },
+   {
+    "drug": "Insulin Glargine 100 IU/ml",
+    "branch": "Jagatpura Pharmacy",
+    "status": "STOCKOUT_RISK",
+    "stock": 8,
+    "days_of_cover": 3.3,
+    "rop": 12,
+    "avg_daily_demand": 2.4
+   },
+   {
+    "drug": "Insulin Glargine 100 IU/ml",
+    "branch": "Central Warehouse Jaipur",
+    "status": "NO_DATA",
+    "stock": 375,
+    "days_of_cover": null,
+    "rop": null,
+    "avg_daily_demand": null
+   },
+   {
+    "drug": "Atorvastatin 10 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 357,
+    "days_of_cover": 20.8,
+    "rop": 103,
+    "avg_daily_demand": 17.2
+   },
+   {
+    "drug": "Atorvastatin 10 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 595,
+    "days_of_cover": 39.7,
+    "rop": 91,
+    "avg_daily_demand": 15.0
+   },
+   {
+    "drug": "Atorvastatin 10 mg",
+    "branch": "Jagatpura Pharmacy",
+    "status": "HEALTHY",
+    "stock": 276,
+    "days_of_cover": 23.0,
+    "rop": 74,
+    "avg_daily_demand": 12.0
+   },
+   {
+    "drug": "Atorvastatin 10 mg",
+    "branch": "Central Warehouse Jaipur",
+    "status": "HEALTHY",
+    "stock": 405,
+    "days_of_cover": 26.1,
+    "rop": 94,
+    "avg_daily_demand": 15.5
+   },
+   {
+    "drug": "Vitamin D3 60K",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 108,
+    "days_of_cover": 15.7,
+    "rop": 61,
+    "avg_daily_demand": 6.9
+   },
+   {
+    "drug": "Vitamin D3 60K",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "OVERSTOCK",
+    "stock": 550,
+    "days_of_cover": 91.7,
+    "rop": 54,
+    "avg_daily_demand": 6.0
+   },
+   {
+    "drug": "Vitamin D3 60K",
+    "branch": "Jagatpura Pharmacy",
+    "status": "HEALTHY",
+    "stock": 148,
+    "days_of_cover": 30.8,
+    "rop": 45,
+    "avg_daily_demand": 4.8
+   },
+   {
+    "drug": "Vitamin D3 60K",
+    "branch": "Central Warehouse Jaipur",
+    "status": "NO_DATA",
+    "stock": 139,
+    "days_of_cover": null,
+    "rop": null,
+    "avg_daily_demand": null
+   },
+   {
+    "drug": "Ibuprofen 400 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "status": "OVERSTOCK",
+    "stock": 1516,
+    "days_of_cover": 77.7,
+    "rop": 72,
+    "avg_daily_demand": 19.5
+   },
+   {
+    "drug": "Ibuprofen 400 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "status": "HEALTHY",
+    "stock": 640,
+    "days_of_cover": 37.6,
+    "rop": 64,
+    "avg_daily_demand": 17.0
+   },
+   {
+    "drug": "Ibuprofen 400 mg",
+    "branch": "Jagatpura Pharmacy",
+    "status": "HEALTHY",
+    "stock": 544,
+    "days_of_cover": 40.0,
+    "rop": 53,
+    "avg_daily_demand": 13.6
+   },
+   {
+    "drug": "Ibuprofen 400 mg",
+    "branch": "Central Warehouse Jaipur",
+    "status": "HEALTHY",
+    "stock": 710,
+    "days_of_cover": 40.3,
+    "rop": 66,
+    "avg_daily_demand": 17.6
+   }
+  ]
+ },
+ "expiry": {
+  "batches": [
+   {
+    "drug": "Amoxicillin 250 mg",
+    "branch": "Jagatpura Pharmacy",
+    "batch_no": "JP-02A-26",
+    "quantity": 34,
+    "expiry_date": "2026-11-25",
+    "days_left": 9,
+    "at_risk_qty": 27
+   },
+   {
+    "drug": "Azithromycin 500 mg",
+    "branch": "Jagatpura Pharmacy",
+    "batch_no": "JP-05A-26",
+    "quantity": 22,
+    "expiry_date": "2026-11-30",
+    "days_left": 14,
+    "at_risk_qty": 17
+   },
+   {
+    "drug": "Vitamin D3 60K",
+    "branch": "Vaishali Nagar Pharmacy",
+    "batch_no": "VN-11A-26",
+    "quantity": 40,
+    "expiry_date": "2026-12-05",
+    "days_left": 19,
+    "at_risk_qty": 34
+   },
+   {
+    "drug": "Pantoprazole 40 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "batch_no": "MN-06A-26",
+    "quantity": 28,
+    "expiry_date": "2026-12-10",
+    "days_left": 24,
+    "at_risk_qty": 0
+   },
+   {
+    "drug": "Ibuprofen 400 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "batch_no": "MN-12A-26",
+    "quantity": 45,
+    "expiry_date": "2026-12-13",
+    "days_left": 27,
+    "at_risk_qty": 18
+   },
+   {
+    "drug": "ORS Sachet",
+    "branch": "Jagatpura Pharmacy",
+    "batch_no": "JP-07A-26",
+    "quantity": 60,
+    "expiry_date": "2026-12-15",
+    "days_left": 29,
+    "at_risk_qty": 15
+   },
+   {
+    "drug": "Atorvastatin 10 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "batch_no": "VN-10A-26",
+    "quantity": 31,
+    "expiry_date": "2026-12-24",
+    "days_left": 38,
+    "at_risk_qty": 0
+   },
+   {
+    "drug": "Metformin 500 mg",
+    "branch": "Jagatpura Pharmacy",
+    "batch_no": "JP-03A-26",
+    "quantity": 26,
+    "expiry_date": "2026-12-30",
+    "days_left": 44,
+    "at_risk_qty": 0
+   },
+   {
+    "drug": "Cetirizine 10 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "batch_no": "VN-04A-26",
+    "quantity": 37,
+    "expiry_date": "2027-01-06",
+    "days_left": 51,
+    "at_risk_qty": 0
+   },
+   {
+    "drug": "Dextromethorphan Syrup 100 ml",
+    "branch": "Malviya Nagar Pharmacy",
+    "batch_no": "MN-08A-26",
+    "quantity": 20,
+    "expiry_date": "2027-01-12",
+    "days_left": 57,
+    "at_risk_qty": 0
+   },
+   {
+    "drug": "Insulin Glargine 100 IU/ml",
+    "branch": "Malviya Nagar Pharmacy",
+    "batch_no": "MN-09A-26",
+    "quantity": 6,
+    "expiry_date": "2027-01-18",
+    "days_left": 63,
+    "at_risk_qty": 0
+   },
+   {
+    "drug": "Paracetamol 500 mg",
+    "branch": "Vaishali Nagar Pharmacy",
+    "batch_no": "VN-01A-26",
+    "quantity": 42,
+    "expiry_date": "2027-01-26",
+    "days_left": 71,
+    "at_risk_qty": 0
+   },
+   {
+    "drug": "Amoxicillin 250 mg",
+    "branch": "Malviya Nagar Pharmacy",
+    "batch_no": "MN-02A-26",
+    "quantity": 39,
+    "expiry_date": "2027-02-02",
+    "days_left": 78,
+    "at_risk_qty": 0
+   },
+   {
+    "drug": "Vitamin D3 60K",
+    "branch": "Jagatpura Pharmacy",
+    "batch_no": "JP-11A-26",
+    "quantity": 24,
+    "expiry_date": "2027-02-10",
+    "days_left": 86,
+    "at_risk_qty": 0
+   },
+   {
+    "drug": "ORS Sachet",
+    "branch": "Central Warehouse Jaipur",
+    "batch_no": "WH-07A-26",
+    "quantity": 150,
+    "expiry_date": "2027-02-14",
+    "days_left": 90,
+    "at_risk_qty": 10
+   }
+  ]
+ },
+ "open_orders": [
+  {
+   "drug": "Paracetamol 500 mg",
+   "branch": "Malviya Nagar Pharmacy",
+   "supplier": "Rajasthan Pharma Distributors",
+   "quantity": 200,
+   "status": "Pending"
+  },
+  {
+   "drug": "Amoxicillin 250 mg",
+   "branch": "Vaishali Nagar Pharmacy",
+   "supplier": "MedLine Wholesale",
+   "quantity": 120,
+   "status": "Pending"
+  },
+  {
+   "drug": "ORS Sachet",
+   "branch": "Jagatpura Pharmacy",
+   "supplier": "Shree Ganesh Medical Agencies",
+   "quantity": 300,
+   "status": "Pending"
+  },
+  {
+   "drug": "Insulin Glargine 100 IU/ml",
+   "branch": "Malviya Nagar Pharmacy",
+   "supplier": "MedLine Wholesale",
+   "quantity": 20,
+   "status": "Pending"
+  }
+ ],
+ "refreshed_at": "2026-11-16T06:00:00Z"
+}
